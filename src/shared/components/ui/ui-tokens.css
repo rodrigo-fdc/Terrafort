@@ -1,0 +1,312 @@
+/* Thirdway — evidence: specs/ui-reference-site-primitives-to-nextjs/evidence/ */
+@font-face {
+  font-family: UiWaldenburg;
+  src: url("/template/site/waldenburg-medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: UiMarist;
+  src: url("./assets/marist-book.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 350 400;
+  font-display: swap;
+}
+:root {
+  --ui-font-sans: UiWaldenburg, Arial, sans-serif;
+  --ui-font-heading: var(--ui-font-sans);
+  --ui-font-display: UiMarist, Georgia, serif;
+  --ui-font-weight: 500;
+  --ui-font-display-weight: 350;
+  --ui-font-features: "ss04";
+  --ui-font-kerning: none;
+  --ui-background: #f7f1e9;
+  --ui-foreground: #20221a;
+  --ui-surface: #fff;
+  --ui-cream: #d4cdb7;
+  --ui-primary: var(--ui-foreground);
+  --ui-primary-foreground: var(--ui-background);
+  --ui-muted-foreground: color-mix(
+    in oklab,
+    var(--ui-foreground) 60%,
+    transparent
+  );
+  --ui-placeholder: color-mix(in oklab, var(--ui-foreground) 40%, transparent);
+  --ui-border: color-mix(in oklab, var(--ui-foreground) 24%, transparent);
+  --ui-border-inverse: color-mix(
+    in oklab,
+    var(--ui-background) 24%,
+    transparent
+  );
+  --ui-ring: var(--ui-foreground);
+  --ui-ring-width: 2px;
+  --ui-ring-offset: 2px;
+  --ui-radius-none: 0px;
+  --ui-radius-sm: 2px;
+  --ui-radius-md: 4px;
+  --ui-radius-pill: 3.40282e38px;
+  --ui-border-width: 1px;
+  --ui-pill-border-width: 2px;
+  --ui-shadow: none;
+  /* Select list: source listbox p-1.5, options px-1.5 py-2.5. */
+  --ui-select-padding: 6px;
+  --ui-option-padding-y: 10px;
+  --ui-select-gap: 8px;
+  --ui-select-arrow-width: 9px;
+  --ui-select-arrow-height: 11px;
+  /* Local portal layer; independent from the reference page shell. */
+  --ui-select-z-index: 100;
+  --ui-text-button-height: 24px;
+  --ui-text-small: 14px;
+  --ui-text-body: 16px;
+  --ui-text-large: 18px;
+  --ui-text-heading: 32px;
+  --ui-text-display: 23px;
+  --ui-leading-body: 1.3;
+  --ui-leading-large: 1.3;
+  --ui-leading-heading: 1.1;
+  --ui-leading-display: 0.96;
+  --ui-tracking-body: -0.04em;
+  --ui-tracking-heading: -0.06em;
+  --ui-tracking-display: -0.05em;
+  --ui-text-label: 14px;
+  --ui-tracking-label: -0.02em;
+  --ui-icon-size: 32px;
+  --ui-icon-background: color-mix(in oklab, var(--ui-cream) 40%, transparent);
+  --ui-icon-hover: color-mix(in oklab, var(--ui-cream) 70%, transparent);
+  --ui-icon-close-background: color-mix(
+    in oklab,
+    var(--ui-cream) 50%,
+    transparent
+  );
+  --ui-icon-close-hover: var(--ui-cream);
+  --ui-arrow-width: 11px;
+  --ui-arrow-height: 8px;
+  --ui-arrow-pill-width: 28px;
+  --ui-arrow-pill-height: 19px;
+  --ui-action-pill-width: 31px;
+  --ui-action-pill-height: 22px;
+  --ui-pill-text-x: -0.02em;
+  --ui-pill-text-y: 0.06em;
+  --ui-action-gap: 10px;
+  --ui-action-underline-gap: 3px;
+  --ui-compact-button-width: 66px;
+  --ui-compact-button-height: 30px;
+  --ui-field-padding-y: 12px;
+  --ui-field-padding-x: 0px;
+  --ui-field-min-height: 44.8px;
+  --ui-textarea-min-height: 60px;
+  --ui-checkbox-size: 16px;
+  --ui-badge-width: 28px;
+  --ui-badge-height: 19px;
+  --ui-badge-date-width: 30px;
+  --ui-badge-year-width: 48px;
+  --ui-badge-date-height: 20px;
+  --ui-disabled-opacity: 0.4;
+  --ui-duration-color: 150ms;
+  --ui-duration-opacity: 300ms;
+  --ui-duration-arrow: 400ms;
+  --ui-duration-action: 500ms;
+  --ui-ease-button: cubic-bezier(0.66, 0.01, 0.12, 0.98);
+  --ui-ease-color: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media (min-width: 1024px) {
+  :root {
+    --ui-text-small: 16px;
+    --ui-text-body: 18px;
+    --ui-text-large: 20px;
+    --ui-text-heading: 48px;
+    --ui-text-display: 28px;
+    --ui-leading-large: 1.1;
+    --ui-leading-heading: 0.98;
+    --ui-tracking-display: -0.04em;
+    --ui-field-padding-y: 0px;
+    --ui-field-min-height: 53px;
+    --ui-textarea-min-height: 0px;
+    --ui-badge-width: 32px;
+    --ui-badge-height: 21px;
+  }
+}
+@media (min-width: 1280px) {
+  :root {
+    --ui-text-heading: 64px;
+    --ui-arrow-pill-width: 31px;
+    --ui-arrow-pill-height: 22px;
+  }
+}
+
+/* Thirdway composites: home, people, projects, services, journal. */
+:root {
+  --ui-composite-yellow: #ffe7a6;
+  --ui-composite-blue: #deefe3;
+  --ui-composite-surface: color-mix(
+    in oklab,
+    var(--ui-foreground) 4%,
+    transparent
+  );
+  --ui-composite-image-bg: color-mix(
+    in oklab,
+    var(--ui-foreground) 6%,
+    transparent
+  );
+  --ui-composite-gap: 16px;
+  --ui-composite-xsmall: 12px;
+  --ui-composite-xsmall-tracking: -0.02em;
+  --ui-composite-serif-small: 16px;
+  --ui-composite-serif-leading: 1.1;
+  --ui-composite-ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ui-article-padding: 8px 8px 24px;
+  --ui-article-body-padding: 0px 10px;
+  --ui-article-date-gap: 2px;
+  --ui-article-ratio: 3 / 2;
+  --ui-article-duration: 700ms;
+  --ui-article-scale: 1.02;
+  --ui-team-ratio: 332 / 442;
+  --ui-team-title-width: 198px;
+  --ui-team-by-size: 20px;
+  --ui-team-by-leading: 1.1;
+  --ui-team-gradient: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.3) 30%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  --ui-team-shade: color-mix(in oklab, var(--ui-foreground) 20%, transparent);
+  --ui-team-content-padding: 0px 24px;
+  --ui-team-content-bottom: 24px;
+  --ui-team-signature-gap: 13px;
+  --ui-team-description-bottom: 0.3em;
+  --ui-team-ease: cubic-bezier(0.54, 0.01, 0.31, 0.99);
+  --ui-team-duration: 300ms;
+  --ui-team-mobile-bg: color-mix(in oklab, var(--ui-cream) 40%, transparent);
+  --ui-team-mobile-padding: 16px 16px 24px 17px;
+  --ui-team-mobile-gap: 17px;
+  --ui-team-mobile-title-top: 8px;
+  --ui-team-mobile-tracking: -0.0175rem;
+  --ui-team-portrait-width: 30%;
+  --ui-team-portrait-min: 70px;
+  --ui-team-portrait-height: 101px;
+  --ui-team-portrait-ratio: 70 / 101;
+  --ui-team-divider: rgb(32 34 26 / 10%);
+  --ui-team-arrow-top: 30px;
+  --ui-team-arrow-right: 16px;
+  --ui-member-ratio: 175 / 233;
+  --ui-member-gradient: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0) 60%
+  );
+  --ui-member-caption-bottom: 18px;
+  --ui-member-caption-padding: 0px 12px;
+  --ui-member-name-gap: 8px;
+  --ui-project-ratio: 16 / 9;
+  --ui-project-title-size: 24px;
+  --ui-project-title-leading: 1.1;
+  --ui-project-title-tracking: -0.04em;
+  --ui-project-dot: 4px;
+  --ui-project-dot-margin: 0px 8px;
+  --ui-project-row-padding: 17px 0px;
+  --ui-project-year-width: 110px;
+  --ui-project-logo-width: 175px;
+  --ui-project-location-width: 140px;
+  --ui-project-preview-width: 362px;
+  --ui-project-preview-layer: 45;
+  --ui-project-row-hover: color-mix(
+    in oklab,
+    var(--ui-foreground) 3%,
+    transparent
+  );
+  --ui-service-heading-height: 40px;
+  --ui-service-heading-offset: 13px;
+  --ui-service-gap: 8px;
+  --ui-service-media-gap: 24px;
+  --ui-service-copy-gap: 23px;
+  --ui-service-ratio: 564 / 377;
+  --ui-service-title-size: 32px;
+  --ui-service-title-leading: 1.1;
+  --ui-service-copy-max: 536px;
+  --ui-service-row-padding: 16px 0px;
+  --ui-service-compact-gap: 16px;
+  --ui-quote-duration: 200ms;
+  --ui-quote-mark-width: 15px;
+  --ui-quote-mark-height: 10px;
+  --ui-quote-mark-gap: 14px;
+  --ui-quote-author-margin: 24px 0px 8px;
+  --ui-quote-position-gap: 4px;
+  --ui-quote-muted: color-mix(in oklab, var(--ui-background) 70%, transparent);
+  --ui-modal-backdrop: color-mix(
+    in oklab,
+    var(--ui-foreground) 60%,
+    transparent
+  );
+  --ui-modal-blur: 8px;
+  --ui-modal-layer: 1100;
+  --ui-modal-gutter: 16px;
+  --ui-modal-max-width: 944px;
+  --ui-modal-header-padding: 6px 6px 6px 16px;
+  --ui-modal-header-layer: 10;
+  --ui-modal-body-padding: 64px 16px 40px;
+  --ui-modal-heading-size: 32px;
+  --ui-modal-heading-leading: 1.1;
+  --ui-modal-heading-max: 480px;
+  --ui-modal-close-bg: color-mix(in oklab, var(--ui-cream) 50%, transparent);
+  --ui-modal-close-icon: var(--ui-icon-size);
+  --ui-modal-min-height: 836px;
+}
+@media (min-width: 1024px) {
+  :root {
+    --ui-composite-xsmall: 14px;
+    --ui-composite-serif-small: 18px;
+    --ui-article-padding: 8px 8px 32px;
+    --ui-member-ratio: 216 / 288;
+    --ui-team-by-size: 24px;
+    --ui-project-title-size: 32px;
+    --ui-project-title-tracking: -0.06em;
+    --ui-modal-gutter: 20px;
+    --ui-modal-body-padding: 48px 32px 24px;
+    --ui-modal-heading-size: 48px;
+    --ui-modal-heading-leading: 0.98;
+    --ui-modal-heading-max: 560px;
+  }
+}
+@media (min-width: 1280px) {
+  :root {
+    --ui-service-title-size: 48px;
+    --ui-service-title-leading: 0.98;
+  }
+}
+
+/* Thirdway horizontal tracks; widths may be overridden on Carousel.style. */
+:root {
+  --ui-carousel-gap: 12px;
+  --ui-carousel-controls-gap: 32px;
+  --ui-carousel-count-gap: 8px;
+  --ui-carousel-controls-spacing: 12px;
+  --ui-carousel-team-width: calc(
+    (100% + var(--ui-carousel-gap)) * 7 / 8 - var(--ui-carousel-gap)
+  );
+  --ui-carousel-journal-width: calc(
+    (100% + var(--ui-carousel-gap)) / 1.15 - var(--ui-carousel-gap)
+  );
+}
+@media (min-width: 768px) {
+  :root {
+    --ui-carousel-gap: 16px;
+    --ui-carousel-team-width: calc(
+      (100% + var(--ui-carousel-gap)) / 2.1 - var(--ui-carousel-gap)
+    );
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --ui-carousel-controls-gap: 20px;
+    --ui-carousel-team-width: calc((100% - 3 * var(--ui-carousel-gap)) / 4);
+  }
+}
+
+@media (min-width: 1920px) {
+  :root {
+    --ui-carousel-gap: 24px;
+  }
+}

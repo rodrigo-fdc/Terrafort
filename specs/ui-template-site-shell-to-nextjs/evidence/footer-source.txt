@@ -1,0 +1,177 @@
+Source: https://www.thirdway.com/_next/static/chunks/3_kjnk_cfpbuq.js
+Formatted lines 2666-2840
+            A = (0, t.jsx)(j, { logo: e.footerLogo }),
+            z = (0, t.jsxs)("div", {
+              className:
+                "bg-warm-black pb-[env(safe-area-inset-bottom,0px)] text-warm-white lg:hidden",
+              children: [
+                (0, t.jsxs)("div", {
+                  className:
+                    "pointer-events-none flex h-[351px] items-end gap-[8.77px] overflow-hidden pl-4 md:gap-[16.77px] md:pl-6",
+                  children: [
+                    (0, t.jsx)("div", {
+                      className: "mb-4 shrink-0",
+                      children: A,
+                    }),
+                    (0, t.jsx)(p, {
+                      progress: u,
+                      className: "-mt-px h-full",
+                      children: P,
+                    }),
+                  ],
+                }),
+                (0, t.jsx)("span", {
+                  className: (0, r.cn)("block h-px w-full", x),
+                }),
+                (0, t.jsx)("div", {
+                  className: "container",
+                  children: (0, t.jsxs)("div", {
+                    className: "site-grid pt-8 pb-[45px]",
+                    children: [
+                      (0, t.jsx)("div", {
+                        className: "col-span-3",
+                        children: M,
+                      }),
+                      (0, t.jsx)("div", {
+                        className: "col-span-4 col-start-5",
+                        children: N,
+                      }),
+                    ],
+                  }),
+                }),
+                (0, t.jsx)("span", {
+                  className: (0, r.cn)("block h-px w-full", x),
+                }),
+                (0, t.jsx)("div", {
+                  className: "container",
+                  children: (0, t.jsx)("div", {
+                    className: "pt-8 pb-8",
+                    children: O,
+                  }),
+                }),
+                (0, t.jsx)("span", {
+                  className: (0, r.cn)("block h-px w-full", x),
+                }),
+                (0, t.jsx)("div", {
+                  className: "container",
+                  children: (0, t.jsx)(L, { className: "pt-5 pb-6" }),
+                }),
+              ],
+            }),
+            D = (0, t.jsxs)("div", {
+              className:
+                "relative hidden h-[693px] overflow-hidden bg-warm-black text-warm-white lg:block xl:h-[691px]",
+              children: [
+                (0, t.jsxs)("div", {
+                  className: "relative mx-auto h-full max-w-[1920px]",
+                  children: [
+                    (0, t.jsxs)("div", {
+                      className:
+                        "pointer-events-none absolute inset-y-0 left-[24.05px] z-10 flex items-end gap-[8.64px] xl:gap-[8.71px] 2xl:left-8 2xl:gap-[38.64px]",
+                      children: [
+                        (0, t.jsx)("div", {
+                          className: "mb-20 shrink-0",
+                          children: A,
+                        }),
+                        (0, t.jsxs)(p, {
+                          progress: u,
+                          className: "-mt-0.5 h-[640px] self-start",
+                          children: [
+                            (0, t.jsx)("div", {
+                              className: "xl:hidden",
+                              children: P,
+                            }),
+                            (0, t.jsx)("div", {
+                              className: "hidden xl:block",
+                              children: R,
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, t.jsx)("div", {
+                      className:
+                        "absolute inset-x-0 top-[38px] container xl:top-[36px]",
+                      children: (0, t.jsxs)("div", {
+                        className: "site-grid",
+                        children: [
+                          (0, t.jsx)("div", {
+                            className:
+                              "col-span-3 col-start-7 xl:col-span-5 xl:col-start-[13]",
+                            children: N,
+                          }),
+                          (0, t.jsx)("div", {
+                            className:
+                              "col-span-3 col-start-10 xl:col-span-6 xl:col-start-[19]",
+                            children: M,
+                          }),
+                        ],
+                      }),
+                    }),
+                    (0, t.jsx)("span", {
+                      className: (0, r.cn)(
+                        "absolute top-[454px] right-0 left-[162px] block h-px xl:hidden",
+                        x,
+                      ),
+                    }),
+                    (0, t.jsx)("div", {
+                      className:
+                        "absolute inset-x-0 top-[452px] container hidden xl:block",
+                      children: (0, t.jsx)("div", {
+                        className: "site-grid",
+                        children: (0, t.jsx)("span", {
+                          className: (0, r.cn)(
+                            "col-[13/-1] block h-px xl:-mr-8 2xl:mr-[calc((1920px-100vw)/2-48px)]",
+                            x,
+                          ),
+                        }),
+                      }),
+                    }),
+                    (0, t.jsx)("div", {
+                      className:
+                        "absolute inset-x-0 top-[480px] container xl:top-[476px]",
+                      children: (0, t.jsx)("div", {
+                        className: "site-grid",
+                        children: (0, t.jsx)("div", {
+                          className:
+                            "col-span-6 col-start-7 xl:col-span-12 xl:col-start-[13]",
+                          children: O,
+                        }),
+                      }),
+                    }),
+                    (0, t.jsx)("div", {
+                      className: "absolute inset-x-0 bottom-[19.8px] px-8",
+                      children: (0, t.jsx)(L, {}),
+                    }),
+                  ],
+                }),
+                (0, t.jsx)("span", {
+                  className: (0, r.cn)(
+                    "absolute inset-x-0 top-[640px] block h-px xl:top-[638px]",
+                    x,
+                  ),
+                }),
+              ],
+            }),
+            H = (0, t.jsxs)(t.Fragment, { children: [z, D] });
+          return g?.mediaType
+            ? (0, t.jsxs)("footer", {
+                id: "footer",
+                className: "relative",
+                "data-header-scheme": "light",
+                children: [
+                  (0, t.jsxs)("div", {
+                    className: "relative",
+                    children: [
+                      (0, t.jsx)(k, { media: g, mediaMobile: v }),
+                      (0, t.jsx)(E, { heading: w }),
+                    ],
+                  }),
+                  H,
+                ],
+              })
+            : (0, t.jsxs)("footer", {
+                id: "footer",
+                "data-header-scheme": "light",
+                children: [
+                  w &&

@@ -1,0 +1,5 @@
+{
+  "status": "confirmed",
+  "message": "Confirmado",
+  "scope": "Aplicar proposed-root-integration.diff; remover raiz anterior com backup e mover shell-preview/page.tsx para (public)/page.tsx."
+}

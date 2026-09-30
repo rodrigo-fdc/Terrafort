@@ -1,0 +1,7 @@
+{
+  "src/app/page.tsx": "8fb123f9def8209a9aab76cfbe1a9c1f30c37538ee2eddab369f59a2239a5c00",
+  "src/app/layout.tsx": "a461aa075f00b5caefeab98eb3a5aec561a94933cfc3a1b989aba953e8c371ef",
+  "src/app/globals.css": "883fa5be198d4c573cf3a702321c048910b3b009579db5e1d3c7e7a63472c0b4",
+  "package.json": "b088ffb3af54bce3e6d0a12bc19a685370ff0385888613da097f9c7a63608bf3",
+  "package-lock.json": "8860c6dd32169b9e7aa676970ec98d101e2d443699ac8a5cd9acd5a8967a3488"
+}

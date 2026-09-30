@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "checks": [
+    "native forwarded refs",
+    "button default type, event, data prop and no variant leakage",
+    "required validation focuses custom trigger",
+    "select arrow keys skip disabled, Home/End, Enter commit, Escape cancel",
+    "controlled/uncontrolled values and native FormData",
+    "pointer choice, outside dismissal and Tab",
+    "form reset restores uncontrolled defaults and retains controlled value",
+    "disabling open select dismisses and does not reopen on re-enable",
+    "cancelled form reset preserves selection",
+    "tokens and geometry at mobile/desktop",
+    "reduced motion",
+    "two Strict Mode unmount/remount cycles remove portal"
+  ],
+  "visual": [
+    {
+      "width": 375,
+      "actionHeight": 22,
+      "body": "16px",
+      "heading": "32px",
+      "display": "23px",
+      "checkbox": 16,
+      "input": "44.8px",
+      "color": "rgb(32, 34, 26)",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "actionHeight": 22,
+      "body": "18px",
+      "heading": "64px",
+      "display": "28px",
+      "checkbox": 16,
+      "input": "53px",
+      "color": "rgb(32, 34, 26)",
+      "overflow": 0
+    }
+  ],
+  "errors": []
+}

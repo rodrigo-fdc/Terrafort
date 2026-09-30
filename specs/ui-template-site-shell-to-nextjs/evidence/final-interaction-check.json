@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:3101/",
+  "checks": [
+    "mobile: toggle, modal, focus trap, Escape, scroll lock and restoration",
+    "backdrop closes menu",
+    "close button",
+    "breakpoint closes modal and restores background",
+    "desktop: 680px panel, 94px empty height, 84px fixed header",
+    "single light theme",
+    "section attribute consumed at 44px threshold; logo remains original dark colour",
+    "Motion transition has intermediate width and converges under controlled clock",
+    "reduced motion: no Lenis, visible header, operational menu",
+    "retired preview HTTP 404; two reload cycles restore closed menu; G4 component hashes unchanged from successful SPA cleanup test",
+    "authorized root migration; retired preview returns 404; original backup intact; global layout/CSS unchanged"
+  ],
+  "errors": [],
+  "failures": []
+}

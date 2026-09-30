@@ -1,0 +1,79 @@
+{
+  "mobile": [
+    {
+      "classes": "pointer-events-auto overflow-hidden rounded-[4px] bg-white text-warm-black mx-auto max-w-[361px]",
+      "rect": {
+        "width": 328,
+        "height": 712.875
+      },
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "/journal"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "controls": [
+      {
+        "tag": "INPUT",
+        "name": "name",
+        "type": "text"
+      },
+      {
+        "tag": "INPUT",
+        "name": "email",
+        "type": "email"
+      },
+      {
+        "tag": "INPUT",
+        "name": "subject",
+        "type": "text"
+      },
+      {
+        "tag": "TEXTAREA",
+        "name": "message",
+        "type": "textarea"
+      },
+      {
+        "tag": "INPUT",
+        "name": "terms",
+        "type": "checkbox"
+      }
+    ],
+    "dialogs": [
+      {
+        "label": "Contact us"
+      }
+    ]
+  }
+}

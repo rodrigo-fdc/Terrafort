@@ -1,0 +1,608 @@
+.container {
+  --ui-home-gutter: 16px;
+  --ui-home-max-width: 1920px;
+  width: 100%;
+  max-width: var(--ui-home-max-width);
+  margin-inline: auto;
+  padding-inline: var(--ui-home-gutter);
+}
+.hero,
+.teams,
+.award,
+.projects,
+.partners,
+.journal {
+  font-family: var(--ui-font-sans);
+  color: var(--ui-foreground);
+  scroll-margin-top: var(--header-space);
+}
+.teams,
+.award,
+.partners,
+.journal {
+  position: relative;
+  background: var(--ui-background);
+}
+.hero {
+  --ui-home-hero-height: 155svh;
+  --ui-home-hero-copy-padding: 64px;
+  --ui-home-hero-title-size: clamp(56px, calc(32px + 6.11vw), 150px);
+  --ui-home-hero-title-padding: 138px;
+  position: relative;
+  margin-top: calc(-1 * var(--header-space));
+  height: var(--ui-home-hero-height);
+  overflow: clip;
+  background: var(--ui-foreground);
+  color: var(--ui-background);
+}
+.heroMedia {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: hidden;
+}
+.heroMedia video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.heroMedia::after,
+.projectPanel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    transparent 35%,
+    color-mix(in srgb, var(--ui-foreground) 55%, transparent)
+  );
+  pointer-events: none;
+}
+.heroTitlePane {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 100svh;
+  display: flex;
+  align-items: end;
+  padding-bottom: var(--ui-home-hero-title-padding);
+}
+.heroTitle {
+  font-size: var(--ui-home-hero-title-size);
+  line-height: 0.92;
+  letter-spacing: -0.06em;
+  white-space: pre-line;
+  text-box: trim-both cap alphabetic;
+  margin: 0;
+}
+.scrollHint {
+  position: absolute;
+  bottom: 48px;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  color: var(--ui-background);
+  font-size: var(--ui-text-small);
+}
+.scrollHint svg {
+  transform: rotate(90deg);
+}
+.heroCopy {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: var(--ui-home-hero-copy-padding);
+}
+.heroDescription {
+  font-size: 24px;
+  line-height: 1.1;
+  letter-spacing: -0.06em;
+  text-box: trim-both cap alphabetic;
+  margin: 0 0 32px;
+}
+.action {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ui-action-gap);
+  text-decoration: none;
+}
+.action > span:first-child {
+  border-bottom: var(--ui-border-width) solid currentColor;
+  padding-bottom: var(--ui-action-underline-gap);
+  text-box: trim-both cap alphabetic;
+}
+.actionArrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--ui-action-pill-width);
+  height: var(--ui-action-pill-height);
+  border-radius: var(--ui-radius-pill);
+  background: var(--ui-tone);
+  color: var(--ui-tone-inverse);
+}
+.teams {
+  --ui-home-teams-padding-top: 98px;
+  --ui-home-teams-padding-bottom: 64px;
+  padding-block: var(--ui-home-teams-padding-top)
+    var(--ui-home-teams-padding-bottom);
+}
+.majorHeading {
+  font-size: 40px;
+  line-height: 1;
+}
+.introduction {
+  display: grid;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.majorHeading,
+.sectionHeading,
+.awardTitle {
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -0.06em;
+  white-space: pre-line;
+  text-box: trim-both cap alphabetic;
+  margin: 0;
+}
+.introCopy {
+  max-width: 506px;
+}
+.introCopy p {
+  margin: 0 0 16px;
+  text-box: trim-both cap alphabetic;
+}
+.award {
+  --ui-home-award-padding: 64px;
+  padding-block: var(--ui-home-award-padding);
+  text-align: center;
+}
+.award .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.awardTitle {
+  font-size: 40px;
+  line-height: 1;
+  max-width: 1600px;
+  margin-bottom: 20px;
+}
+.awardDescription {
+  max-width: 1200px;
+  padding-inline: 8px;
+  margin: 0;
+  font-family: var(--ui-font-display);
+  font-weight: var(--ui-font-display-weight);
+  font-size: 37px;
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+  text-box: trim-both cap alphabetic;
+}
+.projects {
+  --ui-home-project-height: 100lvh;
+  position: relative;
+  height: calc(var(--ui-home-project-count) * var(--ui-home-project-height));
+  overflow: hidden;
+}
+.projectStage {
+  position: relative;
+  height: var(--ui-home-project-height);
+  overflow: hidden;
+}
+.projectPanel {
+  position: absolute;
+  inset: 0;
+}
+.projectPanel:not(:first-child) {
+  clip-path: inset(100% 0 0 0);
+}
+.projectPanel > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.projectOverlay {
+  position: absolute;
+  top: 60%;
+  inset-inline: 0;
+  z-index: 10;
+  color: var(--ui-background);
+}
+.projectProgress {
+  display: block;
+  height: var(--ui-border-width);
+  background: var(--ui-border-inverse);
+  margin-bottom: 14.5px;
+}
+.projectProgress > span {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: var(--ui-background);
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.projectDetails {
+  display: grid;
+  gap: 32px;
+}
+.projectControls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.projectControls > div {
+  display: inline-flex;
+  gap: 10px;
+}
+.previousArrow {
+  transform: rotate(180deg);
+}
+.projectTitle {
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: -0.06em;
+  margin: 0 0 24px;
+  text-box: trim-both cap alphabetic;
+}
+.projectMeta {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+.projectMeta p {
+  margin: 0;
+}
+.reducedProjectCopy {
+  display: none;
+}
+.partners {
+  --ui-home-partners-padding-top: 98px;
+  --ui-home-partners-padding-bottom: 24px;
+  padding-block: var(--ui-home-partners-padding-top)
+    var(--ui-home-partners-padding-bottom);
+  overflow: hidden;
+}
+.partnersGrid {
+  display: grid;
+  gap: 48px;
+}
+.partnersCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.partnersCopy p {
+  max-width: 506px;
+  margin: 0;
+  text-box: trim-both cap alphabetic;
+}
+.logoLanes {
+  display: grid;
+  gap: 12px;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    var(--ui-foreground) 12%,
+    var(--ui-foreground) 88%,
+    transparent
+  );
+}
+.logoLane {
+  overflow: hidden;
+}
+.logoTrack {
+  display: flex;
+  width: max-content;
+  animation: logoHorizontal 60s linear infinite;
+}
+.logoLane:nth-child(2) .logoTrack {
+  animation-direction: reverse;
+}
+.logoGroup {
+  display: flex;
+  gap: 12px;
+  padding-right: 12px;
+}
+.logoTile {
+  position: relative;
+  flex-shrink: 0;
+  width: 128px;
+  aspect-ratio: 1;
+  border-radius: var(--ui-radius-sm);
+  background: color-mix(in srgb, var(--ui-foreground) 4%, transparent);
+}
+.logoTile img {
+  position: absolute;
+  inset: 25% 15%;
+  width: 70%;
+  height: 50%;
+  object-fit: contain;
+}
+.logoLanes:hover .logoTrack,
+.logoLanes:focus-within .logoTrack {
+  animation-play-state: paused;
+}
+.journal {
+  --ui-home-journal-padding: 98px;
+  padding-block: var(--ui-home-journal-padding);
+}
+.journalHeading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.desktopJournalLink {
+  display: none;
+}
+.mobileJournalLink {
+  display: inline-block;
+  margin-top: 24px;
+}
+@keyframes logoHorizontal {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes logoVertical {
+  to {
+    transform: translateY(-50%);
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    --ui-home-gutter: 24px;
+  }
+  .partnersGrid {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .logoLanes {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    height: 440px;
+    mask-image: linear-gradient(
+      to bottom,
+      transparent,
+      var(--ui-foreground) 12%,
+      var(--ui-foreground) 88%,
+      transparent
+    );
+  }
+
+  .logoTrack {
+    flex-direction: column;
+    width: 100%;
+    animation-name: logoVertical;
+  }
+  .logoGroup {
+    flex-direction: column;
+    padding-right: 0;
+    padding-bottom: 16px;
+    gap: 16px;
+  }
+  .logoTile {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    --ui-home-gutter: 32px;
+  }
+  .hero {
+    --ui-home-hero-copy-padding: 148px;
+    --ui-home-hero-title-padding: 98px;
+  }
+  .heroDescription {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+  .heroCopy {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 16px;
+  }
+  .heroCopy > div {
+    grid-column: 1 / span 6;
+  }
+  .majorHeading,
+  .awardTitle {
+    font-size: 56px;
+    line-height: 0.98;
+  }
+  .sectionHeading {
+    font-size: 48px;
+    line-height: 0.98;
+  }
+  .teams {
+    --ui-home-teams-padding-top: 124px;
+    --ui-home-teams-padding-bottom: 124px;
+  }
+  .introduction {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: 52px;
+  }
+  .introduction > h2 {
+    grid-column: 1 / span 6;
+  }
+  .introCopy {
+    grid-column: 8 / span 5;
+  }
+  .award {
+    --ui-home-award-padding: 98px;
+  }
+  .awardTitle {
+    font-size: 56px;
+    line-height: 0.98;
+    margin-bottom: 24px;
+  }
+  .awardDescription {
+    font-size: 60px;
+    line-height: 0.85;
+  }
+  .projectOverlay {
+    top: 62%;
+  }
+  .projectProgress {
+    margin-bottom: 24px;
+  }
+  .projectDetails {
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+  .projectTitle {
+    font-size: 48px;
+  }
+  .partners {
+    --ui-home-partners-padding-top: 0px;
+    --ui-home-partners-padding-bottom: 0px;
+  }
+  .partnersGrid {
+    gap: 16px;
+  }
+  .partnersCopy {
+    gap: 40px;
+  }
+  .logoLanes {
+    height: 685px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+  .logoLane:last-child {
+    display: block;
+  }
+  .journal {
+    --ui-home-journal-padding: 124px;
+  }
+  .journalHeading {
+    margin-bottom: 64px;
+  }
+  .desktopJournalLink {
+    display: inline-block;
+  }
+  .mobileJournalLink {
+    display: none;
+  }
+}
+@media (min-width: 1280px) {
+  .heroTitle {
+    line-height: 0.9;
+  }
+
+  .majorHeading,
+  .awardTitle {
+    font-size: 72px;
+  }
+  .sectionHeading {
+    font-size: 64px;
+  }
+  .awardTitle {
+    font-size: 72px;
+    margin-bottom: 40px;
+  }
+  .awardDescription {
+    font-size: 74px;
+  }
+  .introduction {
+    grid-template-columns: repeat(24, minmax(0, 1fr));
+  }
+  .introduction > h2 {
+    grid-column: 1 / span 15;
+  }
+  .introCopy {
+    grid-column: 16 / span 9;
+  }
+  .partnersGrid {
+    grid-template-columns: 11fr 13fr;
+  }
+  .projectTitle {
+    font-size: 64px;
+  }
+}
+@media (min-width: 1920px) {
+  .container {
+    --ui-home-gutter: 40px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .logoTrack {
+    animation: none;
+  }
+  .logoGroup[aria-hidden="true"] {
+    display: none;
+  }
+  .logoLanes {
+    height: auto;
+    mask-image: none;
+  }
+  .logoLane {
+    overflow: visible;
+  }
+  .logoTrack {
+    width: 100%;
+  }
+  .logoGroup {
+    flex-wrap: wrap;
+  }
+  .logoTile {
+    width: min(140px, 100%);
+  }
+  .projects {
+    height: auto;
+  }
+  .projectStage {
+    height: auto;
+  }
+  .projectPanel,
+  .projectPanel:not(:first-child) {
+    position: relative;
+    height: 100svh;
+    clip-path: none;
+  }
+  .projectOverlay {
+    display: none;
+  }
+  .reducedProjectCopy {
+    display: block;
+    position: absolute;
+    bottom: 64px;
+    inset-inline: 16px;
+    z-index: 1;
+  }
+}
+.signature {
+  display: block;
+  width: var(--ui-home-signature-mobile);
+  max-width: 100%;
+}
+.signature img {
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 1024px) {
+  .signature {
+    width: var(--ui-home-signature-desktop);
+  }
+}
+
+.tabletLogos {
+  display: none;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .primaryLogos {
+    display: none;
+  }
+  .tabletLogos {
+    display: grid;
+  }
+}
+@media (prefers-reduced-motion: reduce) and (min-width: 1024px) {
+  .reducedProjectCopy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    inset-inline: 32px;
+  }
+}

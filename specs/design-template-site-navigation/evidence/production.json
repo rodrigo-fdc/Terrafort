@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "routes": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/approach",
+      "status": 200
+    },
+    {
+      "route": "/services",
+      "status": 200
+    },
+    {
+      "route": "/people",
+      "status": 200
+    }
+  ],
+  "errors": []
+}

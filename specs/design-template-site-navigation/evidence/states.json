@@ -1,0 +1,50 @@
+{
+  "pass": true,
+  "scroll": [
+    {
+      "offset": -1,
+      "scheme": "light",
+      "height": 84,
+      "y": 0
+    },
+    {
+      "offset": 0,
+      "scheme": "dark",
+      "height": 84,
+      "y": 0
+    },
+    {
+      "offset": 1,
+      "scheme": "dark",
+      "height": 84,
+      "y": 0
+    },
+    {
+      "offset": 0,
+      "scheme": "dark",
+      "height": 84,
+      "y": 0
+    },
+    {
+      "offset": -1,
+      "scheme": "light",
+      "height": 84,
+      "y": 0
+    }
+  ],
+  "animation": [
+    {
+      "ms": 250,
+      "width": 512.78125
+    },
+    {
+      "ms": 550,
+      "width": 680
+    },
+    {
+      "ms": 550,
+      "closing": true,
+      "width": 172
+    }
+  ]
+}

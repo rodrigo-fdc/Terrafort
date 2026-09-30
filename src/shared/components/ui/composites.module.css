@@ -1,0 +1,627 @@
+.cBase {
+  box-sizing: border-box;
+  font-family: var(--ui-font-sans);
+  font-weight: var(--ui-font-weight);
+  font-feature-settings: var(--ui-font-features);
+  font-kerning: var(--ui-font-kerning);
+  font-size: var(--ui-text-body);
+  line-height: var(--ui-leading-body);
+  letter-spacing: var(--ui-tracking-body);
+  color: var(--ui-foreground);
+}
+.cBase *,
+.cBase *::before,
+.cBase *::after {
+  box-sizing: border-box;
+}
+.cBase p,
+.cBase h3 {
+  margin: 0;
+}
+.cLink.cLink {
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  border: 0;
+  background-image: none;
+}
+.cLink::before,
+.cLink::after {
+  content: none;
+}
+.cTrim {
+  text-box: trim-both cap alphabetic;
+}
+.cMedia {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.cMedia img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cNoWrap {
+  white-space: nowrap;
+}
+.cClip {
+  overflow: hidden;
+}
+.cArticle.cArticle {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: var(--ui-composite-gap);
+  padding: var(--ui-article-padding);
+  border-radius: var(--ui-radius-md);
+  background: var(--ui-composite-surface);
+  transition: background-color var(--ui-article-duration)
+    var(--ui-composite-ease);
+}
+.cYellow {
+  --ui-article-accent: var(--ui-composite-yellow);
+}
+.cBlue {
+  --ui-article-accent: var(--ui-composite-blue);
+}
+.cCream {
+  --ui-article-accent: var(--ui-cream);
+}
+.cArticleImage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: var(--ui-article-ratio);
+  overflow: hidden;
+  border-radius: var(--ui-radius-sm);
+  background: var(--ui-composite-image-bg);
+}
+.cArticleZoom {
+  position: absolute;
+  inset: 0;
+  transition: transform var(--ui-article-duration) var(--ui-composite-ease);
+  will-change: transform;
+}
+.cArticleBody {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ui-composite-gap);
+  padding: var(--ui-article-body-padding);
+}
+.cArticleDate {
+  display: flex;
+  align-items: center;
+  gap: var(--ui-article-date-gap);
+}
+.cTeam,
+.cTeamInner {
+  height: 100%;
+}
+.cTeamDesktop {
+  display: none;
+  position: relative;
+  aspect-ratio: var(--ui-team-ratio);
+  overflow: hidden;
+  border-radius: var(--ui-radius-sm);
+  background: var(--ui-foreground);
+}
+.cTeamDesktop > .cMedia,
+.cTeamGradient,
+.cTeamShade {
+  position: absolute;
+  inset: 0;
+}
+.cTeamGradient {
+  background: var(--ui-team-gradient);
+}
+.cTeamShade {
+  background: var(--ui-team-shade);
+  opacity: 0;
+  transition: opacity var(--ui-team-duration) var(--ui-team-ease);
+}
+.cTeamContent {
+  position: absolute;
+  inset-inline: 0;
+  bottom: var(--ui-team-content-bottom);
+  padding: var(--ui-team-content-padding);
+}
+.cTeamTitle {
+  max-width: var(--ui-team-title-width);
+  text-box: trim-both cap alphabetic;
+}
+.cTeamBy {
+  font-size: var(--ui-team-by-size);
+  line-height: var(--ui-team-by-leading);
+  letter-spacing: var(--ui-tracking-body);
+  font-family: var(--ui-font-sans);
+  font-weight: var(--ui-font-weight);
+}
+.cSignature {
+  margin-top: var(--ui-team-signature-gap);
+}
+.cSignature img {
+  max-width: 100%;
+  height: auto;
+}
+.cTeamReveal {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows var(--ui-team-duration) var(--ui-team-ease);
+}
+.cTeamDescription {
+  padding-top: var(--ui-team-signature-gap);
+  padding-bottom: var(--ui-team-description-bottom);
+  opacity: 0;
+  transform: translateY(100%);
+  transition:
+    opacity var(--ui-team-duration) var(--ui-team-ease),
+    transform var(--ui-team-duration) var(--ui-team-ease);
+}
+.cTeamMobile {
+  position: relative;
+  height: 100%;
+  padding: var(--ui-team-mobile-padding);
+  border-radius: var(--ui-radius-sm);
+  background: var(--ui-team-mobile-bg);
+}
+.cTeamArrow {
+  position: absolute;
+  top: var(--ui-team-arrow-top);
+  right: var(--ui-team-arrow-right);
+  width: var(--ui-arrow-width);
+  height: var(--ui-arrow-height);
+}
+.cTeamTop {
+  display: flex;
+  gap: var(--ui-team-mobile-gap);
+  margin-bottom: var(--ui-composite-gap);
+}
+.cTeamPortrait {
+  position: relative;
+  aspect-ratio: var(--ui-team-portrait-ratio);
+  width: var(--ui-team-portrait-width);
+  min-width: var(--ui-team-portrait-min);
+  min-height: var(--ui-team-portrait-height);
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: var(--ui-radius-sm);
+}
+.cTeamPortrait .cMedia {
+  position: absolute;
+  inset: 0;
+}
+.cTeamMobileTitle {
+  margin-top: var(--ui-team-mobile-title-top);
+}
+.cTeamDivider {
+  display: block;
+  height: var(--ui-border-width);
+  width: 100%;
+  margin-bottom: var(--ui-composite-gap);
+  background: var(--ui-team-divider);
+}
+.cTeamMobileCopy {
+  letter-spacing: var(--ui-team-mobile-tracking);
+  text-box: trim-both cap alphabetic;
+}
+.cMember {
+  position: relative;
+  width: 100%;
+  aspect-ratio: var(--ui-member-ratio);
+  overflow: hidden;
+  border-radius: var(--ui-radius-sm);
+}
+.cMember > .cMedia,
+.cMemberGradient {
+  position: absolute;
+  inset: 0;
+}
+.cMemberGradient {
+  background: var(--ui-member-gradient);
+}
+.cMemberCaption {
+  position: absolute;
+  inset-inline: 0;
+  bottom: var(--ui-member-caption-bottom);
+  padding: var(--ui-member-caption-padding);
+}
+.cMemberName {
+  margin-bottom: var(--ui-member-name-gap);
+  line-height: 1;
+  text-box: trim-both cap alphabetic;
+}
+.cMemberRole {
+  font-family: var(--ui-font-display);
+  font-weight: var(--ui-font-display-weight);
+  font-size: var(--ui-composite-serif-small);
+  line-height: var(--ui-composite-serif-leading);
+}
+.cProjectImage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: var(--ui-project-ratio);
+  overflow: hidden;
+  border-radius: var(--ui-radius-sm);
+  background: var(--ui-composite-image-bg);
+}
+.cProjectInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--ui-composite-gap);
+}
+.cProjectMeta {
+  display: flex;
+  align-items: center;
+}
+.cXSmall {
+  font-size: var(--ui-composite-xsmall);
+  letter-spacing: var(--ui-composite-xsmall-tracking);
+}
+.cDot {
+  display: inline-block;
+  width: var(--ui-project-dot);
+  height: var(--ui-project-dot);
+  margin: var(--ui-project-dot-margin);
+  border-radius: var(--ui-radius-pill);
+  background: var(--ui-foreground);
+}
+.cProjectTitle {
+  margin-top: var(--ui-composite-gap);
+  font-size: var(--ui-project-title-size);
+  line-height: var(--ui-project-title-leading);
+  letter-spacing: var(--ui-project-title-tracking);
+  text-box: trim-both cap alphabetic;
+}
+.cProjectLogo {
+  display: none;
+  opacity: 0;
+  transition: opacity var(--ui-team-duration) var(--ui-composite-ease);
+}
+.cProjectRow {
+  position: relative;
+  display: flex;
+  border-bottom: var(--ui-border-width) solid var(--ui-border);
+  transition: background-color var(--ui-duration-color) var(--ui-ease-color);
+}
+.cProjectYear {
+  flex: 0 0 var(--ui-project-year-width);
+  color: var(--ui-muted-foreground);
+}
+.cProjectYear,
+.cProjectRowTitle,
+.cProjectRowLogo,
+.cProjectLocation,
+.cProjectSector {
+  padding: var(--ui-project-row-padding);
+}
+.cRowLink.cRowLink {
+  position: absolute;
+  inset: 0;
+}
+.cProjectRowTitle {
+  display: flex;
+}
+.cProjectRowTitle > span {
+  flex-shrink: 0;
+}
+.cProjectRowLogo {
+  margin-left: auto;
+  flex: 0 0 var(--ui-project-logo-width);
+}
+.cProjectLocation,
+.cProjectSector {
+  flex: 0 0 var(--ui-project-location-width);
+}
+.cProjectSector {
+  text-align: right;
+}
+.cProjectPreview {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: var(--ui-project-preview-layer);
+  width: var(--ui-project-preview-width);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.cService,
+.cServiceCompact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ui-service-gap);
+}
+.cServiceHeading {
+  position: relative;
+  height: var(--ui-service-heading-height);
+}
+.cServiceRule {
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  border-top: var(--ui-border-width) solid var(--ui-border);
+}
+.cServiceHeading > div {
+  position: absolute;
+  inset-inline: 0;
+  top: var(--ui-service-heading-offset);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cServiceBody {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ui-service-media-gap);
+}
+.cServiceImage {
+  width: 100%;
+  aspect-ratio: var(--ui-service-ratio);
+  overflow: hidden;
+  border-radius: var(--ui-radius-sm);
+}
+.cServiceCopy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ui-service-copy-gap);
+}
+.cServiceTitle {
+  font-size: var(--ui-service-title-size);
+  line-height: var(--ui-service-title-leading);
+  text-box: trim-both cap alphabetic;
+}
+.cServiceDescription {
+  max-width: var(--ui-service-copy-max);
+}
+.cTestimonial {
+  display: none;
+  color: var(--ui-background);
+  transition: opacity var(--ui-quote-duration) var(--ui-ease-color);
+}
+.cQuoteMark {
+  display: block;
+  width: var(--ui-quote-mark-width);
+  height: var(--ui-quote-mark-height);
+  margin-bottom: var(--ui-quote-mark-gap);
+}
+.cQuoteText {
+  font-size: inherit;
+  line-height: inherit;
+}
+.cQuoteAuthor {
+  margin: var(--ui-quote-author-margin);
+  font-size: var(--ui-composite-xsmall);
+  letter-spacing: var(--ui-composite-xsmall-tracking);
+}
+.cQuotePosition {
+  margin-top: var(--ui-quote-position-gap);
+  font-family: var(--ui-font-display);
+  font-weight: var(--ui-font-display-weight);
+  font-size: var(--ui-composite-serif-small);
+  line-height: var(--ui-composite-serif-leading);
+  color: var(--ui-quote-muted);
+}
+.cModalOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: var(--ui-modal-layer);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--ui-modal-gutter) + env(safe-area-inset-top, 0px))
+    var(--ui-modal-gutter)
+    calc(var(--ui-modal-gutter) + env(safe-area-inset-bottom, 0px));
+  background: var(--ui-modal-backdrop);
+  backdrop-filter: blur(var(--ui-modal-blur));
+}
+.cModal {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100dvh - var(--ui-modal-gutter) * 2);
+  width: 100%;
+  max-width: var(--ui-modal-max-width);
+  overflow-y: auto;
+  border-radius: var(--ui-radius-md);
+  background: var(--ui-background);
+  box-shadow: var(--ui-shadow);
+  scrollbar-width: thin;
+}
+.cModalHeader {
+  position: sticky;
+  top: 0;
+  z-index: var(--ui-modal-header-layer);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  border-bottom: var(--ui-border-width) solid var(--ui-border);
+  padding: var(--ui-modal-header-padding);
+  background: var(--ui-background);
+}
+.cModalTitle {
+  font-size: var(--ui-text-small);
+  text-box: trim-both cap alphabetic;
+}
+.cModalClose.cModalClose {
+  background: var(--ui-modal-close-bg);
+}
+.cModalClose.cModalClose:hover {
+  background: var(--ui-cream);
+}
+.cModalClose.cModalClose svg {
+  width: var(--ui-modal-close-icon);
+  height: var(--ui-modal-close-icon);
+}
+.cModalBody {
+  padding: var(--ui-modal-body-padding);
+}
+.cModalHeading {
+  max-width: var(--ui-modal-heading-max);
+  font-size: var(--ui-modal-heading-size);
+  line-height: var(--ui-modal-heading-leading);
+  white-space: pre-line;
+  text-box: trim-both cap alphabetic;
+  margin: 0;
+}
+.cModalDescription {
+  margin: 0;
+  padding: var(--ui-composite-gap);
+}
+@media (hover: hover) {
+  .cArticle:hover {
+    background-color: var(--ui-article-accent);
+  }
+  .cTeam:hover .cTeamShade {
+    opacity: 1;
+  }
+  .cTeam:hover .cTeamReveal {
+    grid-template-rows: 1fr;
+  }
+  .cTeam:hover .cTeamDescription {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .cProject:hover .cProjectLogo {
+    opacity: 1;
+  }
+  .cProjectRow:hover {
+    background: var(--ui-project-row-hover);
+  }
+  .cProjectRow:hover .cProjectPreview {
+    opacity: 1;
+  }
+}
+.cTeam:focus-visible .cTeamReveal {
+  grid-template-rows: 1fr;
+}
+.cTeam:focus-visible .cTeamDescription,
+.cProject:focus-visible .cProjectLogo,
+.cProjectRow:focus-within .cProjectPreview {
+  opacity: 1;
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .cArticle:hover .cArticleZoom {
+    transform: scale(var(--ui-article-scale));
+  }
+}
+@media (min-width: 1024px) {
+  .cTeamDesktop {
+    display: block;
+  }
+  .cTeamMobile {
+    display: none;
+  }
+  .cProjectLogo {
+    display: flex;
+    align-items: flex-start;
+  }
+  .cTestimonial {
+    display: block;
+  }
+  .cServiceCompact {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: var(--ui-service-compact-gap);
+    padding: var(--ui-service-row-padding);
+    border-top: var(--ui-border-width) solid var(--ui-border);
+  }
+  .cServiceCompact .cServiceHeading {
+    grid-column: span 3;
+    height: auto;
+    align-self: center;
+  }
+  .cServiceCompact .cServiceHeading > div {
+    position: static;
+    justify-content: flex-start;
+    gap: var(--ui-service-gap);
+  }
+  .cServiceCompact .cServiceHeading > div > span:last-child {
+    white-space: nowrap;
+  }
+  .cServiceCompact .cServiceRule {
+    display: none;
+  }
+  .cServiceCompact .cServiceBody,
+  .cServiceCompact .cServiceCopy {
+    display: contents;
+  }
+  .cServiceCompact .cServiceImage {
+    grid-column: 4 / span 2;
+    align-self: center;
+  }
+  .cServiceCompact .cServiceTitle {
+    grid-column: 6 / span 3;
+    align-self: center;
+    font-size: var(--ui-project-title-size);
+    line-height: var(--ui-project-title-leading);
+  }
+  .cServiceCompact .cServiceDescription {
+    grid-column: 9 / span 4;
+    align-self: center;
+  }
+  .cServiceCompact .cServiceDescription p {
+    font-size: var(--ui-text-small);
+  }
+  .cModalBody {
+    flex: 1 0 auto;
+  }
+}
+@media (min-width: 1280px) {
+  .cQuoteContents {
+    font-size: var(--ui-text-large);
+    line-height: var(--ui-leading-large);
+  }
+  .cServiceCompact {
+    grid-template-columns: repeat(24, minmax(0, 1fr));
+  }
+  .cServiceCompact .cServiceHeading {
+    grid-column: span 4;
+  }
+  .cServiceCompact .cServiceImage {
+    grid-column: 5 / span 3;
+  }
+  .cServiceCompact .cServiceTitle {
+    grid-column: 9 / span 6;
+  }
+  .cServiceCompact .cServiceDescription {
+    grid-column: 16 / span 9;
+  }
+}
+@media (min-width: 1536px) {
+  .cServiceCompact .cServiceHeading {
+    grid-column: span 3;
+  }
+  .cServiceCompact .cServiceImage {
+    grid-column: 4 / span 3;
+  }
+  .cServiceCompact .cServiceTitle {
+    grid-column: 8 / span 5;
+  }
+  .cServiceCompact .cServiceDescription {
+    grid-column: 16 / span 8;
+  }
+}
+@media (min-width: 1024px) and (min-height: 880px) {
+  .cModal {
+    min-height: var(--ui-modal-min-height);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cTeamReveal,
+  .cTeamDescription,
+  .cTeamShade,
+  .cArticle,
+  .cArticleZoom,
+  .cProjectLogo,
+  .cProjectRow,
+  .cTestimonial {
+    transition: none;
+  }
+}
+.cProject {
+  width: 100%;
+}
+.cTeam:focus-visible .cTeamDescription {
+  transform: translateY(0);
+}

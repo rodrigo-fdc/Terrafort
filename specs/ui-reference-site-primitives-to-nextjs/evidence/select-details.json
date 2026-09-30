@@ -1,0 +1,60 @@
+{
+  "html": "<ul role=\"listbox\" data-lenis-prevent=\"true\" class=\"no-scrollbar flex max-h-[50vh] w-full flex-col overflow-y-auto p-1.5\" style=\"opacity: 0;\"><li role=\"option\" aria-selected=\"false\"><button type=\"button\" class=\"block w-full rounded-[2px] px-1.5 py-2.5 text-left body whitespace-nowrap text-warm-black transition-colors cap-trim hover:bg-cream/40 active:bg-cream/40\">General Enquiry</button></li><li role=\"option\" aria-selected=\"false\"><button type=\"button\" class=\"block w-full rounded-[2px] px-1.5 py-2.5 text-left body whitespace-nowrap text-warm-black transition-colors cap-trim hover:bg-cream/40 active:bg-cream/40\">New Business</button></li><li role=\"option\" aria-selected=\"false\"><button type=\"button\" class=\"block w-full rounded-[2px] px-1.5 py-2.5 text-left body whitespace-nowrap text-warm-black transition-colors cap-trim hover:bg-cream/40 active:bg-cream/40\">Recruitment</button></li><li role=\"option\" aria-selected=\"false\"><button type=\"button\" class=\"block w-full rounded-[2px] px-1.5 py-2.5 text-left body whitespace-nowrap text-warm-black transition-colors cap-trim hover:bg-cream/40 active:bg-cream/40\">Supplier Enquiry</button></li></ul>",
+  "styles": [
+    {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "6px",
+      "border": "0px solid rgb(32, 34, 26)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "fontSize": "18px",
+      "lineHeight": "23.4px",
+      "maxHeight": "360px",
+      "zIndex": "auto"
+    },
+    {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "border": "0px solid rgb(32, 34, 26)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "fontSize": "18px",
+      "lineHeight": "23.4px",
+      "maxHeight": "none",
+      "zIndex": "auto"
+    },
+    {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "border": "0px solid rgb(32, 34, 26)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "fontSize": "18px",
+      "lineHeight": "23.4px",
+      "maxHeight": "none",
+      "zIndex": "auto"
+    },
+    {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "border": "0px solid rgb(32, 34, 26)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "fontSize": "18px",
+      "lineHeight": "23.4px",
+      "maxHeight": "none",
+      "zIndex": "auto"
+    },
+    {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "border": "0px solid rgb(32, 34, 26)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "fontSize": "18px",
+      "lineHeight": "23.4px",
+      "maxHeight": "none",
+      "zIndex": "auto"
+    }
+  ]
+}

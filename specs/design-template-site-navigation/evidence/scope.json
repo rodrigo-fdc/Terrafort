@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "changed_existing": ["src/shared/template/site/site-shell.component.tsx"],
+  "created": [
+    "src/app/(public)/(examples)/people/page.tsx",
+    "src/app/(public)/(examples)/services/page.tsx",
+    "src/app/(public)/(examples)/approach/page.tsx",
+    "src/shared/template/site/navigation/navigation-state.ts",
+    "src/shared/template/site/navigation/header.component.tsx",
+    "src/shared/template/site/navigation/nav-link.component.tsx",
+    "src/shared/template/site/navigation/use-navigation-state.ts",
+    "src/shared/template/site/navigation/navigation-panel.component.tsx",
+    "src/shared/template/site/navigation/menu-toggle.component.tsx",
+    "src/shared/template/site/navigation/navigation.module.css",
+    "src/shared/template/site/navigation/navigation.config.ts"
+  ],
+  "root_preserved": true
+}

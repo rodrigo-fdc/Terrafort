@@ -1,0 +1,6107 @@
+[
+  {
+    "width": 375,
+    "height": 812,
+    "before": {
+      "cta": {
+        "rect": {
+          "x": 239.671875,
+          "y": 26,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 16,
+        "y": 16,
+        "width": 328,
+        "height": 44
+      },
+      "nav": {
+        "x": 16,
+        "y": 60,
+        "width": 328,
+        "height": 335.875
+      },
+      "link": {
+        "x": 34,
+        "y": 84,
+        "width": 292,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 306,
+        "y": 22,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 34,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 28,
+        "y": 27.328125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "source": {
+      "cta": {
+        "rect": {
+          "x": 239.671875,
+          "y": 25.5,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 16,
+        "y": 16,
+        "width": 328,
+        "height": 712.875
+      },
+      "nav": {
+        "x": 16,
+        "y": 60,
+        "width": 328,
+        "height": 335.875
+      },
+      "link": {
+        "x": 34,
+        "y": 84,
+        "width": 292,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 306,
+        "y": 21.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "oklab(0.848028 -0.00122339 0.0307342 / 0.7)"
+      },
+      "label": {
+        "x": 34,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 28,
+        "y": 26.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "/journal"
+        }
+      ]
+    },
+    "local": {
+      "cta": {
+        "rect": {
+          "x": 239.671875,
+          "y": 25.5,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 16,
+        "y": 16,
+        "width": 328,
+        "height": 379.875
+      },
+      "nav": {
+        "x": 16,
+        "y": 60,
+        "width": 328,
+        "height": 335.875
+      },
+      "link": {
+        "x": 34,
+        "y": 84,
+        "width": 292,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 306,
+        "y": 21.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.7)"
+      },
+      "label": {
+        "x": 34,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 28,
+        "y": 26.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "comparisons": {
+      "panel.x": {
+        "source": 16,
+        "local": 16,
+        "pass": true
+      },
+      "panel.y": {
+        "source": 16,
+        "local": 16,
+        "pass": true
+      },
+      "panel.width": {
+        "source": 328,
+        "local": 328,
+        "pass": true
+      },
+      "link.x": {
+        "source": 34,
+        "local": 34,
+        "pass": true
+      },
+      "link.y": {
+        "source": 84,
+        "local": 84,
+        "pass": true
+      },
+      "link.width": {
+        "source": 292,
+        "local": 292,
+        "pass": true
+      },
+      "link.height": {
+        "source": 35.984375,
+        "local": 35.984375,
+        "pass": true
+      },
+      "toggle.x": {
+        "source": 306,
+        "local": 306,
+        "pass": true
+      },
+      "toggle.y": {
+        "source": 21.5,
+        "local": 21.5,
+        "pass": true
+      },
+      "toggle.width": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "toggle.height": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "logo.x": {
+        "source": 28,
+        "local": 28,
+        "pass": true
+      },
+      "logo.y": {
+        "source": 26.828125,
+        "local": 26.828125,
+        "pass": true
+      },
+      "logo.width": {
+        "source": 112.359375,
+        "local": 112.359375,
+        "pass": true
+      },
+      "logo.height": {
+        "source": 21.328125,
+        "local": 21.328125,
+        "pass": true
+      },
+      "label.x": {
+        "source": 34,
+        "local": 34,
+        "pass": true
+      },
+      "label.y": {
+        "source": 92,
+        "local": 92,
+        "pass": true
+      },
+      "label.width": {
+        "source": 121.046875,
+        "local": 121.046875,
+        "pass": true
+      },
+      "label.height": {
+        "source": 19.984375,
+        "local": 19.984375,
+        "pass": true
+      },
+      "linkCSS.fontSize": {
+        "source": "28px",
+        "local": "28px",
+        "pass": true
+      },
+      "linkCSS.fontWeight": {
+        "source": "500",
+        "local": "500",
+        "pass": true
+      },
+      "linkCSS.lineHeight": {
+        "source": "30.8px",
+        "local": "30.8px",
+        "pass": true
+      },
+      "linkCSS.letterSpacing": {
+        "source": "-1.68px",
+        "local": "-1.68px",
+        "pass": true
+      },
+      "linkCSS.color": {
+        "source": "rgb(32, 34, 26)",
+        "local": "rgb(32, 34, 26)",
+        "pass": true
+      },
+      "linkCSS.paddingTop": {
+        "source": "8px",
+        "local": "8px",
+        "pass": true
+      },
+      "linkCSS.paddingBottom": {
+        "source": "8px",
+        "local": "8px",
+        "pass": true
+      },
+      "cta.x": {
+        "source": 239.671875,
+        "local": 239.671875,
+        "pass": true
+      },
+      "cta.y": {
+        "source": 25.5,
+        "local": 25.5,
+        "pass": true
+      },
+      "cta.width": {
+        "source": 54.328125,
+        "local": 54.328125,
+        "pass": true
+      },
+      "cta.height": {
+        "source": 24,
+        "local": 24,
+        "pass": true
+      }
+    }
+  },
+  {
+    "width": 767,
+    "height": 900,
+    "before": {
+      "cta": {
+        "rect": {
+          "x": 452.171875,
+          "y": 26,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 195.5,
+        "y": 16,
+        "width": 361,
+        "height": 44
+      },
+      "nav": {
+        "x": 195.5,
+        "y": 60,
+        "width": 361,
+        "height": 335.875
+      },
+      "link": {
+        "x": 213.5,
+        "y": 84,
+        "width": 325,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 518.5,
+        "y": 22,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 213.5,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 207.5,
+        "y": 27.328125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "source": {
+      "cta": {
+        "rect": {
+          "x": 452.171875,
+          "y": 25.5,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 195.5,
+        "y": 16,
+        "width": 361,
+        "height": 712.875
+      },
+      "nav": {
+        "x": 195.5,
+        "y": 60,
+        "width": 361,
+        "height": 335.875
+      },
+      "link": {
+        "x": 213.5,
+        "y": 84,
+        "width": 325,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 518.5,
+        "y": 21.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "oklab(0.848028 -0.00122339 0.0307342 / 0.7)"
+      },
+      "label": {
+        "x": 213.5,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 207.5,
+        "y": 26.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "/journal"
+        }
+      ]
+    },
+    "local": {
+      "cta": {
+        "rect": {
+          "x": 452.171875,
+          "y": 25.5,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 195.5,
+        "y": 16,
+        "width": 361,
+        "height": 379.875
+      },
+      "nav": {
+        "x": 195.5,
+        "y": 60,
+        "width": 361,
+        "height": 335.875
+      },
+      "link": {
+        "x": 213.5,
+        "y": 84,
+        "width": 325,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 518.5,
+        "y": 21.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.7)"
+      },
+      "label": {
+        "x": 213.5,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 207.5,
+        "y": 26.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "comparisons": {
+      "panel.x": {
+        "source": 195.5,
+        "local": 195.5,
+        "pass": true
+      },
+      "panel.y": {
+        "source": 16,
+        "local": 16,
+        "pass": true
+      },
+      "panel.width": {
+        "source": 361,
+        "local": 361,
+        "pass": true
+      },
+      "link.x": {
+        "source": 213.5,
+        "local": 213.5,
+        "pass": true
+      },
+      "link.y": {
+        "source": 84,
+        "local": 84,
+        "pass": true
+      },
+      "link.width": {
+        "source": 325,
+        "local": 325,
+        "pass": true
+      },
+      "link.height": {
+        "source": 35.984375,
+        "local": 35.984375,
+        "pass": true
+      },
+      "toggle.x": {
+        "source": 518.5,
+        "local": 518.5,
+        "pass": true
+      },
+      "toggle.y": {
+        "source": 21.5,
+        "local": 21.5,
+        "pass": true
+      },
+      "toggle.width": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "toggle.height": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "logo.x": {
+        "source": 207.5,
+        "local": 207.5,
+        "pass": true
+      },
+      "logo.y": {
+        "source": 26.828125,
+        "local": 26.828125,
+        "pass": true
+      },
+      "logo.width": {
+        "source": 112.359375,
+        "local": 112.359375,
+        "pass": true
+      },
+      "logo.height": {
+        "source": 21.328125,
+        "local": 21.328125,
+        "pass": true
+      },
+      "label.x": {
+        "source": 213.5,
+        "local": 213.5,
+        "pass": true
+      },
+      "label.y": {
+        "source": 92,
+        "local": 92,
+        "pass": true
+      },
+      "label.width": {
+        "source": 121.046875,
+        "local": 121.046875,
+        "pass": true
+      },
+      "label.height": {
+        "source": 19.984375,
+        "local": 19.984375,
+        "pass": true
+      },
+      "linkCSS.fontSize": {
+        "source": "28px",
+        "local": "28px",
+        "pass": true
+      },
+      "linkCSS.fontWeight": {
+        "source": "500",
+        "local": "500",
+        "pass": true
+      },
+      "linkCSS.lineHeight": {
+        "source": "30.8px",
+        "local": "30.8px",
+        "pass": true
+      },
+      "linkCSS.letterSpacing": {
+        "source": "-1.68px",
+        "local": "-1.68px",
+        "pass": true
+      },
+      "linkCSS.color": {
+        "source": "rgb(32, 34, 26)",
+        "local": "rgb(32, 34, 26)",
+        "pass": true
+      },
+      "linkCSS.paddingTop": {
+        "source": "8px",
+        "local": "8px",
+        "pass": true
+      },
+      "linkCSS.paddingBottom": {
+        "source": "8px",
+        "local": "8px",
+        "pass": true
+      },
+      "cta.x": {
+        "source": 452.171875,
+        "local": 452.171875,
+        "pass": true
+      },
+      "cta.y": {
+        "source": 25.5,
+        "local": 25.5,
+        "pass": true
+      },
+      "cta.width": {
+        "source": 54.328125,
+        "local": 54.328125,
+        "pass": true
+      },
+      "cta.height": {
+        "source": 24,
+        "local": 24,
+        "pass": true
+      }
+    }
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "before": {
+      "cta": {
+        "rect": {
+          "x": 452.671875,
+          "y": 26,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 196,
+        "y": 16,
+        "width": 361,
+        "height": 44
+      },
+      "nav": {
+        "x": 196,
+        "y": 60,
+        "width": 361,
+        "height": 335.875
+      },
+      "link": {
+        "x": 214,
+        "y": 84,
+        "width": 325,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 519,
+        "y": 22,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.7)"
+      },
+      "label": {
+        "x": 214,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 208,
+        "y": 27.328125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "source": {
+      "cta": {
+        "rect": {
+          "x": 452.671875,
+          "y": 25.5,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 196,
+        "y": 16,
+        "width": 361,
+        "height": 712.875
+      },
+      "nav": {
+        "x": 196,
+        "y": 60,
+        "width": 361,
+        "height": 335.875
+      },
+      "link": {
+        "x": 214,
+        "y": 84,
+        "width": 325,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 519,
+        "y": 21.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "oklab(0.848028 -0.00122339 0.0307342 / 0.7)"
+      },
+      "label": {
+        "x": 214,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 208,
+        "y": 26.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "/journal"
+        }
+      ]
+    },
+    "local": {
+      "cta": {
+        "rect": {
+          "x": 452.671875,
+          "y": 25.5,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 196,
+        "y": 16,
+        "width": 361,
+        "height": 379.875
+      },
+      "nav": {
+        "x": 196,
+        "y": 60,
+        "width": 361,
+        "height": 335.875
+      },
+      "link": {
+        "x": 214,
+        "y": 84,
+        "width": 325,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 519,
+        "y": 21.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.7)"
+      },
+      "label": {
+        "x": 214,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 208,
+        "y": 26.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "comparisons": {
+      "panel.x": {
+        "source": 196,
+        "local": 196,
+        "pass": true
+      },
+      "panel.y": {
+        "source": 16,
+        "local": 16,
+        "pass": true
+      },
+      "panel.width": {
+        "source": 361,
+        "local": 361,
+        "pass": true
+      },
+      "link.x": {
+        "source": 214,
+        "local": 214,
+        "pass": true
+      },
+      "link.y": {
+        "source": 84,
+        "local": 84,
+        "pass": true
+      },
+      "link.width": {
+        "source": 325,
+        "local": 325,
+        "pass": true
+      },
+      "link.height": {
+        "source": 35.984375,
+        "local": 35.984375,
+        "pass": true
+      },
+      "toggle.x": {
+        "source": 519,
+        "local": 519,
+        "pass": true
+      },
+      "toggle.y": {
+        "source": 21.5,
+        "local": 21.5,
+        "pass": true
+      },
+      "toggle.width": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "toggle.height": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "logo.x": {
+        "source": 208,
+        "local": 208,
+        "pass": true
+      },
+      "logo.y": {
+        "source": 26.828125,
+        "local": 26.828125,
+        "pass": true
+      },
+      "logo.width": {
+        "source": 112.359375,
+        "local": 112.359375,
+        "pass": true
+      },
+      "logo.height": {
+        "source": 21.328125,
+        "local": 21.328125,
+        "pass": true
+      },
+      "label.x": {
+        "source": 214,
+        "local": 214,
+        "pass": true
+      },
+      "label.y": {
+        "source": 92,
+        "local": 92,
+        "pass": true
+      },
+      "label.width": {
+        "source": 121.046875,
+        "local": 121.046875,
+        "pass": true
+      },
+      "label.height": {
+        "source": 19.984375,
+        "local": 19.984375,
+        "pass": true
+      },
+      "linkCSS.fontSize": {
+        "source": "28px",
+        "local": "28px",
+        "pass": true
+      },
+      "linkCSS.fontWeight": {
+        "source": "500",
+        "local": "500",
+        "pass": true
+      },
+      "linkCSS.lineHeight": {
+        "source": "30.8px",
+        "local": "30.8px",
+        "pass": true
+      },
+      "linkCSS.letterSpacing": {
+        "source": "-1.68px",
+        "local": "-1.68px",
+        "pass": true
+      },
+      "linkCSS.color": {
+        "source": "rgb(32, 34, 26)",
+        "local": "rgb(32, 34, 26)",
+        "pass": true
+      },
+      "linkCSS.paddingTop": {
+        "source": "8px",
+        "local": "8px",
+        "pass": true
+      },
+      "linkCSS.paddingBottom": {
+        "source": "8px",
+        "local": "8px",
+        "pass": true
+      },
+      "cta.x": {
+        "source": 452.671875,
+        "local": 452.671875,
+        "pass": true
+      },
+      "cta.y": {
+        "source": 25.5,
+        "local": 25.5,
+        "pass": true
+      },
+      "cta.width": {
+        "source": 54.328125,
+        "local": 54.328125,
+        "pass": true
+      },
+      "cta.height": {
+        "source": 24,
+        "local": 24,
+        "pass": true
+      }
+    }
+  },
+  {
+    "width": 769,
+    "height": 900,
+    "before": {
+      "cta": {
+        "rect": {
+          "x": 453.171875,
+          "y": 26,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 196.5,
+        "y": 16,
+        "width": 361,
+        "height": 91.671875
+      },
+      "nav": {
+        "x": 196.5,
+        "y": 60,
+        "width": 361,
+        "height": 335.875
+      },
+      "link": {
+        "x": 214.5,
+        "y": 84,
+        "width": 325,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 519.5,
+        "y": 22,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.7)"
+      },
+      "label": {
+        "x": 214.5,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 208.5,
+        "y": 27.328125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "source": {
+      "cta": {
+        "rect": {
+          "x": 453.171875,
+          "y": 25.5,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 196.5,
+        "y": 16,
+        "width": 361,
+        "height": 712.875
+      },
+      "nav": {
+        "x": 196.5,
+        "y": 60,
+        "width": 361,
+        "height": 335.875
+      },
+      "link": {
+        "x": 214.5,
+        "y": 84,
+        "width": 325,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 519.5,
+        "y": 21.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "oklab(0.848028 -0.00122339 0.0307342 / 0.7)"
+      },
+      "label": {
+        "x": 214.5,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 208.5,
+        "y": 26.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "/journal"
+        }
+      ]
+    },
+    "local": {
+      "cta": {
+        "rect": {
+          "x": 453.171875,
+          "y": 25.5,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 196.5,
+        "y": 16,
+        "width": 361,
+        "height": 379.875
+      },
+      "nav": {
+        "x": 196.5,
+        "y": 60,
+        "width": 361,
+        "height": 335.875
+      },
+      "link": {
+        "x": 214.5,
+        "y": 84,
+        "width": 325,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 519.5,
+        "y": 21.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.7)"
+      },
+      "label": {
+        "x": 214.5,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 208.5,
+        "y": 26.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "comparisons": {
+      "panel.x": {
+        "source": 196.5,
+        "local": 196.5,
+        "pass": true
+      },
+      "panel.y": {
+        "source": 16,
+        "local": 16,
+        "pass": true
+      },
+      "panel.width": {
+        "source": 361,
+        "local": 361,
+        "pass": true
+      },
+      "link.x": {
+        "source": 214.5,
+        "local": 214.5,
+        "pass": true
+      },
+      "link.y": {
+        "source": 84,
+        "local": 84,
+        "pass": true
+      },
+      "link.width": {
+        "source": 325,
+        "local": 325,
+        "pass": true
+      },
+      "link.height": {
+        "source": 35.984375,
+        "local": 35.984375,
+        "pass": true
+      },
+      "toggle.x": {
+        "source": 519.5,
+        "local": 519.5,
+        "pass": true
+      },
+      "toggle.y": {
+        "source": 21.5,
+        "local": 21.5,
+        "pass": true
+      },
+      "toggle.width": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "toggle.height": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "logo.x": {
+        "source": 208.5,
+        "local": 208.5,
+        "pass": true
+      },
+      "logo.y": {
+        "source": 26.828125,
+        "local": 26.828125,
+        "pass": true
+      },
+      "logo.width": {
+        "source": 112.359375,
+        "local": 112.359375,
+        "pass": true
+      },
+      "logo.height": {
+        "source": 21.328125,
+        "local": 21.328125,
+        "pass": true
+      },
+      "label.x": {
+        "source": 214.5,
+        "local": 214.5,
+        "pass": true
+      },
+      "label.y": {
+        "source": 92,
+        "local": 92,
+        "pass": true
+      },
+      "label.width": {
+        "source": 121.046875,
+        "local": 121.046875,
+        "pass": true
+      },
+      "label.height": {
+        "source": 19.984375,
+        "local": 19.984375,
+        "pass": true
+      },
+      "linkCSS.fontSize": {
+        "source": "28px",
+        "local": "28px",
+        "pass": true
+      },
+      "linkCSS.fontWeight": {
+        "source": "500",
+        "local": "500",
+        "pass": true
+      },
+      "linkCSS.lineHeight": {
+        "source": "30.8px",
+        "local": "30.8px",
+        "pass": true
+      },
+      "linkCSS.letterSpacing": {
+        "source": "-1.68px",
+        "local": "-1.68px",
+        "pass": true
+      },
+      "linkCSS.color": {
+        "source": "rgb(32, 34, 26)",
+        "local": "rgb(32, 34, 26)",
+        "pass": true
+      },
+      "linkCSS.paddingTop": {
+        "source": "8px",
+        "local": "8px",
+        "pass": true
+      },
+      "linkCSS.paddingBottom": {
+        "source": "8px",
+        "local": "8px",
+        "pass": true
+      },
+      "cta.x": {
+        "source": 453.171875,
+        "local": 453.171875,
+        "pass": true
+      },
+      "cta.y": {
+        "source": 25.5,
+        "local": 25.5,
+        "pass": true
+      },
+      "cta.width": {
+        "source": 54.328125,
+        "local": 54.328125,
+        "pass": true
+      },
+      "cta.height": {
+        "source": 24,
+        "local": 24,
+        "pass": true
+      }
+    }
+  },
+  {
+    "width": 1023,
+    "height": 900,
+    "before": {
+      "cta": {
+        "rect": {
+          "x": 580.171875,
+          "y": 26,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 323.5,
+        "y": 16,
+        "width": 361,
+        "height": 156.65625
+      },
+      "nav": {
+        "x": 323.5,
+        "y": 60,
+        "width": 361,
+        "height": 335.875
+      },
+      "link": {
+        "x": 341.5,
+        "y": 84,
+        "width": 325,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 646.5,
+        "y": 22,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.7)"
+      },
+      "label": {
+        "x": 341.5,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 335.5,
+        "y": 27.328125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "source": {
+      "cta": {
+        "rect": {
+          "x": 580.171875,
+          "y": 25.5,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 323.5,
+        "y": 16,
+        "width": 361,
+        "height": 712.875
+      },
+      "nav": {
+        "x": 323.5,
+        "y": 60,
+        "width": 361,
+        "height": 335.875
+      },
+      "link": {
+        "x": 341.5,
+        "y": 84,
+        "width": 325,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 646.5,
+        "y": 21.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "oklab(0.848028 -0.00122339 0.0307342 / 0.7)"
+      },
+      "label": {
+        "x": 341.5,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 335.5,
+        "y": 26.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "/journal"
+        }
+      ]
+    },
+    "local": {
+      "cta": {
+        "rect": {
+          "x": 580.171875,
+          "y": 25.5,
+          "width": 54.328125,
+          "height": 24
+        },
+        "css": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.56px",
+          "color": "rgb(32, 34, 26)",
+          "paddingTop": "0px",
+          "paddingBottom": "2px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 323.5,
+        "y": 16,
+        "width": 361,
+        "height": 379.875
+      },
+      "nav": {
+        "x": 323.5,
+        "y": 60,
+        "width": 361,
+        "height": 335.875
+      },
+      "link": {
+        "x": 341.5,
+        "y": 84,
+        "width": 325,
+        "height": 35.984375
+      },
+      "toggle": {
+        "x": 646.5,
+        "y": 21.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "28px",
+        "fontWeight": "500",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-1.68px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "24px",
+        "paddingBottom": "24px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.7)"
+      },
+      "label": {
+        "x": 341.5,
+        "y": 92,
+        "width": 121.046875,
+        "height": 19.984375
+      },
+      "logo": {
+        "x": 335.5,
+        "y": 26.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "comparisons": {
+      "panel.x": {
+        "source": 323.5,
+        "local": 323.5,
+        "pass": true
+      },
+      "panel.y": {
+        "source": 16,
+        "local": 16,
+        "pass": true
+      },
+      "panel.width": {
+        "source": 361,
+        "local": 361,
+        "pass": true
+      },
+      "link.x": {
+        "source": 341.5,
+        "local": 341.5,
+        "pass": true
+      },
+      "link.y": {
+        "source": 84,
+        "local": 84,
+        "pass": true
+      },
+      "link.width": {
+        "source": 325,
+        "local": 325,
+        "pass": true
+      },
+      "link.height": {
+        "source": 35.984375,
+        "local": 35.984375,
+        "pass": true
+      },
+      "toggle.x": {
+        "source": 646.5,
+        "local": 646.5,
+        "pass": true
+      },
+      "toggle.y": {
+        "source": 21.5,
+        "local": 21.5,
+        "pass": true
+      },
+      "toggle.width": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "toggle.height": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "logo.x": {
+        "source": 335.5,
+        "local": 335.5,
+        "pass": true
+      },
+      "logo.y": {
+        "source": 26.828125,
+        "local": 26.828125,
+        "pass": true
+      },
+      "logo.width": {
+        "source": 112.359375,
+        "local": 112.359375,
+        "pass": true
+      },
+      "logo.height": {
+        "source": 21.328125,
+        "local": 21.328125,
+        "pass": true
+      },
+      "label.x": {
+        "source": 341.5,
+        "local": 341.5,
+        "pass": true
+      },
+      "label.y": {
+        "source": 92,
+        "local": 92,
+        "pass": true
+      },
+      "label.width": {
+        "source": 121.046875,
+        "local": 121.046875,
+        "pass": true
+      },
+      "label.height": {
+        "source": 19.984375,
+        "local": 19.984375,
+        "pass": true
+      },
+      "linkCSS.fontSize": {
+        "source": "28px",
+        "local": "28px",
+        "pass": true
+      },
+      "linkCSS.fontWeight": {
+        "source": "500",
+        "local": "500",
+        "pass": true
+      },
+      "linkCSS.lineHeight": {
+        "source": "30.8px",
+        "local": "30.8px",
+        "pass": true
+      },
+      "linkCSS.letterSpacing": {
+        "source": "-1.68px",
+        "local": "-1.68px",
+        "pass": true
+      },
+      "linkCSS.color": {
+        "source": "rgb(32, 34, 26)",
+        "local": "rgb(32, 34, 26)",
+        "pass": true
+      },
+      "linkCSS.paddingTop": {
+        "source": "8px",
+        "local": "8px",
+        "pass": true
+      },
+      "linkCSS.paddingBottom": {
+        "source": "8px",
+        "local": "8px",
+        "pass": true
+      },
+      "cta.x": {
+        "source": 580.171875,
+        "local": 580.171875,
+        "pass": true
+      },
+      "cta.y": {
+        "source": 25.5,
+        "local": 25.5,
+        "pass": true
+      },
+      "cta.width": {
+        "source": 54.328125,
+        "local": 54.328125,
+        "pass": true
+      },
+      "cta.height": {
+        "source": 24,
+        "local": 24,
+        "pass": true
+      }
+    }
+  },
+  {
+    "width": 1024,
+    "height": 900,
+    "before": {
+      "cta": {
+        "rect": {
+          "x": 866.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 392.46875,
+        "y": 20,
+        "width": 224.0625,
+        "height": 44
+      },
+      "nav": {
+        "x": 392.46875,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 408.46875,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 578.53125,
+        "y": 26,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 408.46875,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 404.46875,
+        "y": 31.328125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "source": {
+      "cta": {
+        "rect": {
+          "x": 866.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 164.5,
+        "y": 20,
+        "width": 680,
+        "height": 755.171875
+      },
+      "nav": {
+        "x": 164.5,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 180.5,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 806.5,
+        "y": 25.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "oklab(0.848028 -0.00122339 0.0307342 / 0.4)"
+      },
+      "label": {
+        "x": 180.5,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 176.5,
+        "y": 30.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "/journal"
+        }
+      ]
+    },
+    "local": {
+      "cta": {
+        "rect": {
+          "x": 866.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 164.5,
+        "y": 20,
+        "width": 680,
+        "height": 420.75
+      },
+      "nav": {
+        "x": 164.5,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 180.5,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 806.5,
+        "y": 25.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 180.5,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 176.5,
+        "y": 30.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "comparisons": {
+      "panel.x": {
+        "source": 164.5,
+        "local": 164.5,
+        "pass": true
+      },
+      "panel.y": {
+        "source": 20,
+        "local": 20,
+        "pass": true
+      },
+      "panel.width": {
+        "source": 680,
+        "local": 680,
+        "pass": true
+      },
+      "link.x": {
+        "source": 180.5,
+        "local": 180.5,
+        "pass": true
+      },
+      "link.y": {
+        "source": 87,
+        "local": 87,
+        "pass": true
+      },
+      "link.width": {
+        "source": 648,
+        "local": 648,
+        "pass": true
+      },
+      "link.height": {
+        "source": 40.84375,
+        "local": 40.84375,
+        "pass": true
+      },
+      "toggle.x": {
+        "source": 806.5,
+        "local": 806.5,
+        "pass": true
+      },
+      "toggle.y": {
+        "source": 25.5,
+        "local": 25.5,
+        "pass": true
+      },
+      "toggle.width": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "toggle.height": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "logo.x": {
+        "source": 176.5,
+        "local": 176.5,
+        "pass": true
+      },
+      "logo.y": {
+        "source": 30.828125,
+        "local": 30.828125,
+        "pass": true
+      },
+      "logo.width": {
+        "source": 112.359375,
+        "local": 112.359375,
+        "pass": true
+      },
+      "logo.height": {
+        "source": 21.328125,
+        "local": 21.328125,
+        "pass": true
+      },
+      "label.x": {
+        "source": 180.5,
+        "local": 180.5,
+        "pass": true
+      },
+      "label.y": {
+        "source": 96,
+        "local": 96,
+        "pass": true
+      },
+      "label.width": {
+        "source": 138.34375,
+        "local": 138.34375,
+        "pass": true
+      },
+      "label.height": {
+        "source": 22.84375,
+        "local": 22.84375,
+        "pass": true
+      },
+      "linkCSS.fontSize": {
+        "source": "32px",
+        "local": "32px",
+        "pass": true
+      },
+      "linkCSS.fontWeight": {
+        "source": "500",
+        "local": "500",
+        "pass": true
+      },
+      "linkCSS.lineHeight": {
+        "source": "35.2px",
+        "local": "35.2px",
+        "pass": true
+      },
+      "linkCSS.letterSpacing": {
+        "source": "-1.92px",
+        "local": "-1.92px",
+        "pass": true
+      },
+      "linkCSS.color": {
+        "source": "rgb(32, 34, 26)",
+        "local": "rgb(32, 34, 26)",
+        "pass": true
+      },
+      "linkCSS.paddingTop": {
+        "source": "9px",
+        "local": "9px",
+        "pass": true
+      },
+      "linkCSS.paddingBottom": {
+        "source": "9px",
+        "local": "9px",
+        "pass": true
+      },
+      "cta.x": {
+        "source": 866.15625,
+        "local": 866.15625,
+        "pass": true
+      },
+      "cta.y": {
+        "source": 31,
+        "local": 31,
+        "pass": true
+      },
+      "cta.width": {
+        "source": 110.84375,
+        "local": 110.84375,
+        "pass": true
+      },
+      "cta.height": {
+        "source": 22,
+        "local": 22,
+        "pass": true
+      }
+    }
+  },
+  {
+    "width": 1025,
+    "height": 900,
+    "before": {
+      "cta": {
+        "rect": {
+          "x": 867.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 419,
+        "y": 20,
+        "width": 172,
+        "height": 44
+      },
+      "nav": {
+        "x": 419,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 435,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 553,
+        "y": 26,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.7)"
+      },
+      "label": {
+        "x": 435,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 431,
+        "y": 31.328125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "source": {
+      "cta": {
+        "rect": {
+          "x": 867.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 165,
+        "y": 20,
+        "width": 680,
+        "height": 755.171875
+      },
+      "nav": {
+        "x": 165,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 181,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 807,
+        "y": 25.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "oklab(0.848028 -0.00122339 0.0307342 / 0.4)"
+      },
+      "label": {
+        "x": 181,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 177,
+        "y": 30.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "/journal"
+        }
+      ]
+    },
+    "local": {
+      "cta": {
+        "rect": {
+          "x": 867.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 165,
+        "y": 20,
+        "width": 680,
+        "height": 420.75
+      },
+      "nav": {
+        "x": 165,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 181,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 807,
+        "y": 25.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 181,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 177,
+        "y": 30.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "comparisons": {
+      "panel.x": {
+        "source": 165,
+        "local": 165,
+        "pass": true
+      },
+      "panel.y": {
+        "source": 20,
+        "local": 20,
+        "pass": true
+      },
+      "panel.width": {
+        "source": 680,
+        "local": 680,
+        "pass": true
+      },
+      "link.x": {
+        "source": 181,
+        "local": 181,
+        "pass": true
+      },
+      "link.y": {
+        "source": 87,
+        "local": 87,
+        "pass": true
+      },
+      "link.width": {
+        "source": 648,
+        "local": 648,
+        "pass": true
+      },
+      "link.height": {
+        "source": 40.84375,
+        "local": 40.84375,
+        "pass": true
+      },
+      "toggle.x": {
+        "source": 807,
+        "local": 807,
+        "pass": true
+      },
+      "toggle.y": {
+        "source": 25.5,
+        "local": 25.5,
+        "pass": true
+      },
+      "toggle.width": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "toggle.height": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "logo.x": {
+        "source": 177,
+        "local": 177,
+        "pass": true
+      },
+      "logo.y": {
+        "source": 30.828125,
+        "local": 30.828125,
+        "pass": true
+      },
+      "logo.width": {
+        "source": 112.359375,
+        "local": 112.359375,
+        "pass": true
+      },
+      "logo.height": {
+        "source": 21.328125,
+        "local": 21.328125,
+        "pass": true
+      },
+      "label.x": {
+        "source": 181,
+        "local": 181,
+        "pass": true
+      },
+      "label.y": {
+        "source": 96,
+        "local": 96,
+        "pass": true
+      },
+      "label.width": {
+        "source": 138.34375,
+        "local": 138.34375,
+        "pass": true
+      },
+      "label.height": {
+        "source": 22.84375,
+        "local": 22.84375,
+        "pass": true
+      },
+      "linkCSS.fontSize": {
+        "source": "32px",
+        "local": "32px",
+        "pass": true
+      },
+      "linkCSS.fontWeight": {
+        "source": "500",
+        "local": "500",
+        "pass": true
+      },
+      "linkCSS.lineHeight": {
+        "source": "35.2px",
+        "local": "35.2px",
+        "pass": true
+      },
+      "linkCSS.letterSpacing": {
+        "source": "-1.92px",
+        "local": "-1.92px",
+        "pass": true
+      },
+      "linkCSS.color": {
+        "source": "rgb(32, 34, 26)",
+        "local": "rgb(32, 34, 26)",
+        "pass": true
+      },
+      "linkCSS.paddingTop": {
+        "source": "9px",
+        "local": "9px",
+        "pass": true
+      },
+      "linkCSS.paddingBottom": {
+        "source": "9px",
+        "local": "9px",
+        "pass": true
+      },
+      "cta.x": {
+        "source": 867.15625,
+        "local": 867.15625,
+        "pass": true
+      },
+      "cta.y": {
+        "source": 31,
+        "local": 31,
+        "pass": true
+      },
+      "cta.width": {
+        "source": 110.84375,
+        "local": 110.84375,
+        "pass": true
+      },
+      "cta.height": {
+        "source": 22,
+        "local": 22,
+        "pass": true
+      }
+    }
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "before": {
+      "cta": {
+        "rect": {
+          "x": 1282.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 626.5,
+        "y": 20,
+        "width": 172,
+        "height": 44
+      },
+      "nav": {
+        "x": 626.5,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 642.5,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 760.5,
+        "y": 26,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 642.5,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 638.5,
+        "y": 31.328125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "source": {
+      "cta": {
+        "rect": {
+          "x": 1282.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 372.5,
+        "y": 20,
+        "width": 680,
+        "height": 755.171875
+      },
+      "nav": {
+        "x": 372.5,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 388.5,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 1014.5,
+        "y": 25.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "oklab(0.848028 -0.00122339 0.0307342 / 0.690178)"
+      },
+      "label": {
+        "x": 388.5,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 384.5,
+        "y": 30.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "/journal"
+        }
+      ]
+    },
+    "local": {
+      "cta": {
+        "rect": {
+          "x": 1282.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 372.5,
+        "y": 20,
+        "width": 680,
+        "height": 420.75
+      },
+      "nav": {
+        "x": 372.5,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 388.5,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 1014.5,
+        "y": 25.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 388.5,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 384.5,
+        "y": 30.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "comparisons": {
+      "panel.x": {
+        "source": 372.5,
+        "local": 372.5,
+        "pass": true
+      },
+      "panel.y": {
+        "source": 20,
+        "local": 20,
+        "pass": true
+      },
+      "panel.width": {
+        "source": 680,
+        "local": 680,
+        "pass": true
+      },
+      "link.x": {
+        "source": 388.5,
+        "local": 388.5,
+        "pass": true
+      },
+      "link.y": {
+        "source": 87,
+        "local": 87,
+        "pass": true
+      },
+      "link.width": {
+        "source": 648,
+        "local": 648,
+        "pass": true
+      },
+      "link.height": {
+        "source": 40.84375,
+        "local": 40.84375,
+        "pass": true
+      },
+      "toggle.x": {
+        "source": 1014.5,
+        "local": 1014.5,
+        "pass": true
+      },
+      "toggle.y": {
+        "source": 25.5,
+        "local": 25.5,
+        "pass": true
+      },
+      "toggle.width": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "toggle.height": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "logo.x": {
+        "source": 384.5,
+        "local": 384.5,
+        "pass": true
+      },
+      "logo.y": {
+        "source": 30.828125,
+        "local": 30.828125,
+        "pass": true
+      },
+      "logo.width": {
+        "source": 112.359375,
+        "local": 112.359375,
+        "pass": true
+      },
+      "logo.height": {
+        "source": 21.328125,
+        "local": 21.328125,
+        "pass": true
+      },
+      "label.x": {
+        "source": 388.5,
+        "local": 388.5,
+        "pass": true
+      },
+      "label.y": {
+        "source": 96,
+        "local": 96,
+        "pass": true
+      },
+      "label.width": {
+        "source": 138.34375,
+        "local": 138.34375,
+        "pass": true
+      },
+      "label.height": {
+        "source": 22.84375,
+        "local": 22.84375,
+        "pass": true
+      },
+      "linkCSS.fontSize": {
+        "source": "32px",
+        "local": "32px",
+        "pass": true
+      },
+      "linkCSS.fontWeight": {
+        "source": "500",
+        "local": "500",
+        "pass": true
+      },
+      "linkCSS.lineHeight": {
+        "source": "35.2px",
+        "local": "35.2px",
+        "pass": true
+      },
+      "linkCSS.letterSpacing": {
+        "source": "-1.92px",
+        "local": "-1.92px",
+        "pass": true
+      },
+      "linkCSS.color": {
+        "source": "rgb(32, 34, 26)",
+        "local": "rgb(32, 34, 26)",
+        "pass": true
+      },
+      "linkCSS.paddingTop": {
+        "source": "9px",
+        "local": "9px",
+        "pass": true
+      },
+      "linkCSS.paddingBottom": {
+        "source": "9px",
+        "local": "9px",
+        "pass": true
+      },
+      "cta.x": {
+        "source": 1282.15625,
+        "local": 1282.15625,
+        "pass": true
+      },
+      "cta.y": {
+        "source": 31,
+        "local": 31,
+        "pass": true
+      },
+      "cta.width": {
+        "source": 110.84375,
+        "local": 110.84375,
+        "pass": true
+      },
+      "cta.height": {
+        "source": 22,
+        "local": 22,
+        "pass": true
+      }
+    }
+  },
+  {
+    "width": 1919,
+    "height": 900,
+    "before": {
+      "cta": {
+        "rect": {
+          "x": 1761.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 864.421875,
+        "y": 20,
+        "width": 175.140625,
+        "height": 46.328125
+      },
+      "nav": {
+        "x": 864.421875,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 880.421875,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 1001.5625,
+        "y": 26,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 880.421875,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 876.421875,
+        "y": 31.328125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "source": {
+      "cta": {
+        "rect": {
+          "x": 1761.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 612,
+        "y": 20,
+        "width": 680,
+        "height": 755.171875
+      },
+      "nav": {
+        "x": 612,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 628,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 1254,
+        "y": 25.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "oklab(0.848028 -0.00122339 0.0307342 / 0.4)"
+      },
+      "label": {
+        "x": 628,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 624,
+        "y": 30.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "/journal"
+        }
+      ]
+    },
+    "local": {
+      "cta": {
+        "rect": {
+          "x": 1761.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 612,
+        "y": 20,
+        "width": 680,
+        "height": 420.75
+      },
+      "nav": {
+        "x": 612,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 628,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 1254,
+        "y": 25.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 628,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 624,
+        "y": 30.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "comparisons": {
+      "panel.x": {
+        "source": 612,
+        "local": 612,
+        "pass": true
+      },
+      "panel.y": {
+        "source": 20,
+        "local": 20,
+        "pass": true
+      },
+      "panel.width": {
+        "source": 680,
+        "local": 680,
+        "pass": true
+      },
+      "link.x": {
+        "source": 628,
+        "local": 628,
+        "pass": true
+      },
+      "link.y": {
+        "source": 87,
+        "local": 87,
+        "pass": true
+      },
+      "link.width": {
+        "source": 648,
+        "local": 648,
+        "pass": true
+      },
+      "link.height": {
+        "source": 40.84375,
+        "local": 40.84375,
+        "pass": true
+      },
+      "toggle.x": {
+        "source": 1254,
+        "local": 1254,
+        "pass": true
+      },
+      "toggle.y": {
+        "source": 25.5,
+        "local": 25.5,
+        "pass": true
+      },
+      "toggle.width": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "toggle.height": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "logo.x": {
+        "source": 624,
+        "local": 624,
+        "pass": true
+      },
+      "logo.y": {
+        "source": 30.828125,
+        "local": 30.828125,
+        "pass": true
+      },
+      "logo.width": {
+        "source": 112.359375,
+        "local": 112.359375,
+        "pass": true
+      },
+      "logo.height": {
+        "source": 21.328125,
+        "local": 21.328125,
+        "pass": true
+      },
+      "label.x": {
+        "source": 628,
+        "local": 628,
+        "pass": true
+      },
+      "label.y": {
+        "source": 96,
+        "local": 96,
+        "pass": true
+      },
+      "label.width": {
+        "source": 138.34375,
+        "local": 138.34375,
+        "pass": true
+      },
+      "label.height": {
+        "source": 22.84375,
+        "local": 22.84375,
+        "pass": true
+      },
+      "linkCSS.fontSize": {
+        "source": "32px",
+        "local": "32px",
+        "pass": true
+      },
+      "linkCSS.fontWeight": {
+        "source": "500",
+        "local": "500",
+        "pass": true
+      },
+      "linkCSS.lineHeight": {
+        "source": "35.2px",
+        "local": "35.2px",
+        "pass": true
+      },
+      "linkCSS.letterSpacing": {
+        "source": "-1.92px",
+        "local": "-1.92px",
+        "pass": true
+      },
+      "linkCSS.color": {
+        "source": "rgb(32, 34, 26)",
+        "local": "rgb(32, 34, 26)",
+        "pass": true
+      },
+      "linkCSS.paddingTop": {
+        "source": "9px",
+        "local": "9px",
+        "pass": true
+      },
+      "linkCSS.paddingBottom": {
+        "source": "9px",
+        "local": "9px",
+        "pass": true
+      },
+      "cta.x": {
+        "source": 1761.15625,
+        "local": 1761.15625,
+        "pass": true
+      },
+      "cta.y": {
+        "source": 31,
+        "local": 31,
+        "pass": true
+      },
+      "cta.width": {
+        "source": 110.84375,
+        "local": 110.84375,
+        "pass": true
+      },
+      "cta.height": {
+        "source": 22,
+        "local": 22,
+        "pass": true
+      }
+    }
+  },
+  {
+    "width": 1920,
+    "height": 900,
+    "before": {
+      "cta": {
+        "rect": {
+          "x": 1746.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 662.15625,
+        "y": 20,
+        "width": 580.6875,
+        "height": 347.09375
+      },
+      "nav": {
+        "x": 662.15625,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 678.15625,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 1204.84375,
+        "y": 26,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 678.15625,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 674.15625,
+        "y": 31.328125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "source": {
+      "cta": {
+        "rect": {
+          "x": 1746.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 612.5,
+        "y": 20,
+        "width": 680,
+        "height": 755.171875
+      },
+      "nav": {
+        "x": 612.5,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 628.5,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 1254.5,
+        "y": 25.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "oklab(0.848028 -0.00122339 0.0307342 / 0.4)"
+      },
+      "label": {
+        "x": 628.5,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 624.5,
+        "y": 30.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "/journal"
+        }
+      ]
+    },
+    "local": {
+      "cta": {
+        "rect": {
+          "x": 1746.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 612.5,
+        "y": 20,
+        "width": 680,
+        "height": 420.75
+      },
+      "nav": {
+        "x": 612.5,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 628.5,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 1254.5,
+        "y": 25.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 628.5,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 624.5,
+        "y": 30.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "comparisons": {
+      "panel.x": {
+        "source": 612.5,
+        "local": 612.5,
+        "pass": true
+      },
+      "panel.y": {
+        "source": 20,
+        "local": 20,
+        "pass": true
+      },
+      "panel.width": {
+        "source": 680,
+        "local": 680,
+        "pass": true
+      },
+      "link.x": {
+        "source": 628.5,
+        "local": 628.5,
+        "pass": true
+      },
+      "link.y": {
+        "source": 87,
+        "local": 87,
+        "pass": true
+      },
+      "link.width": {
+        "source": 648,
+        "local": 648,
+        "pass": true
+      },
+      "link.height": {
+        "source": 40.84375,
+        "local": 40.84375,
+        "pass": true
+      },
+      "toggle.x": {
+        "source": 1254.5,
+        "local": 1254.5,
+        "pass": true
+      },
+      "toggle.y": {
+        "source": 25.5,
+        "local": 25.5,
+        "pass": true
+      },
+      "toggle.width": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "toggle.height": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "logo.x": {
+        "source": 624.5,
+        "local": 624.5,
+        "pass": true
+      },
+      "logo.y": {
+        "source": 30.828125,
+        "local": 30.828125,
+        "pass": true
+      },
+      "logo.width": {
+        "source": 112.359375,
+        "local": 112.359375,
+        "pass": true
+      },
+      "logo.height": {
+        "source": 21.328125,
+        "local": 21.328125,
+        "pass": true
+      },
+      "label.x": {
+        "source": 628.5,
+        "local": 628.5,
+        "pass": true
+      },
+      "label.y": {
+        "source": 96,
+        "local": 96,
+        "pass": true
+      },
+      "label.width": {
+        "source": 138.34375,
+        "local": 138.34375,
+        "pass": true
+      },
+      "label.height": {
+        "source": 22.84375,
+        "local": 22.84375,
+        "pass": true
+      },
+      "linkCSS.fontSize": {
+        "source": "32px",
+        "local": "32px",
+        "pass": true
+      },
+      "linkCSS.fontWeight": {
+        "source": "500",
+        "local": "500",
+        "pass": true
+      },
+      "linkCSS.lineHeight": {
+        "source": "35.2px",
+        "local": "35.2px",
+        "pass": true
+      },
+      "linkCSS.letterSpacing": {
+        "source": "-1.92px",
+        "local": "-1.92px",
+        "pass": true
+      },
+      "linkCSS.color": {
+        "source": "rgb(32, 34, 26)",
+        "local": "rgb(32, 34, 26)",
+        "pass": true
+      },
+      "linkCSS.paddingTop": {
+        "source": "9px",
+        "local": "9px",
+        "pass": true
+      },
+      "linkCSS.paddingBottom": {
+        "source": "9px",
+        "local": "9px",
+        "pass": true
+      },
+      "cta.x": {
+        "source": 1746.15625,
+        "local": 1746.15625,
+        "pass": true
+      },
+      "cta.y": {
+        "source": 31,
+        "local": 31,
+        "pass": true
+      },
+      "cta.width": {
+        "source": 110.84375,
+        "local": 110.84375,
+        "pass": true
+      },
+      "cta.height": {
+        "source": 22,
+        "local": 22,
+        "pass": true
+      }
+    }
+  },
+  {
+    "width": 1921,
+    "height": 900,
+    "before": {
+      "cta": {
+        "rect": {
+          "x": 1747.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 835.796875,
+        "y": 20,
+        "width": 234.40625,
+        "height": 90.28125
+      },
+      "nav": {
+        "x": 835.796875,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 851.796875,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 1032.203125,
+        "y": 26,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 851.796875,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 847.796875,
+        "y": 31.328125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "source": {
+      "cta": {
+        "rect": {
+          "x": 1747.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 613,
+        "y": 20,
+        "width": 680,
+        "height": 755.171875
+      },
+      "nav": {
+        "x": 613,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 629,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 1255,
+        "y": 25.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "oklab(0.848028 -0.00122339 0.0307342 / 0.7)"
+      },
+      "label": {
+        "x": 629,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 625,
+        "y": 30.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "/journal"
+        }
+      ]
+    },
+    "local": {
+      "cta": {
+        "rect": {
+          "x": 1747.15625,
+          "y": 31,
+          "width": 110.84375,
+          "height": 22
+        },
+        "css": {
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "color": "rgb(247, 241, 233)",
+          "paddingTop": "0px",
+          "paddingBottom": "3px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "borderRadius": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "panel": {
+        "x": 613,
+        "y": 20,
+        "width": 680,
+        "height": 420.75
+      },
+      "nav": {
+        "x": 613,
+        "y": 64,
+        "width": 680,
+        "height": 376.75
+      },
+      "link": {
+        "x": 629,
+        "y": 87,
+        "width": 648,
+        "height": 40.84375
+      },
+      "toggle": {
+        "x": 1255,
+        "y": 25.5,
+        "width": 32,
+        "height": 32
+      },
+      "linkCSS": {
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "navCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "23px",
+        "paddingBottom": "27px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "toggleCSS": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "color": "rgb(32, 34, 26)",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "borderRadius": "2px",
+        "backgroundColor": "color(srgb 0.831373 0.803922 0.717647 / 0.4)"
+      },
+      "label": {
+        "x": 629,
+        "y": 96,
+        "width": 138.34375,
+        "height": 22.84375
+      },
+      "logo": {
+        "x": 625,
+        "y": 30.828125,
+        "width": 112.359375,
+        "height": 21.328125
+      },
+      "overflow": -15,
+      "links": [
+        {
+          "label": "Approach",
+          "href": "/approach"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "People",
+          "href": "/people"
+        },
+        {
+          "label": "Projects",
+          "href": "https://www.thirdway.com/projects"
+        },
+        {
+          "label": "Vision & Values",
+          "href": "https://www.thirdway.com/vision-and-values"
+        },
+        {
+          "label": "Our Home",
+          "href": "https://www.thirdway.com/our-home"
+        },
+        {
+          "label": "ESG",
+          "href": "https://www.thirdway.com/esg"
+        },
+        {
+          "label": "Journal",
+          "href": "https://www.thirdway.com/journal"
+        }
+      ]
+    },
+    "comparisons": {
+      "panel.x": {
+        "source": 613,
+        "local": 613,
+        "pass": true
+      },
+      "panel.y": {
+        "source": 20,
+        "local": 20,
+        "pass": true
+      },
+      "panel.width": {
+        "source": 680,
+        "local": 680,
+        "pass": true
+      },
+      "link.x": {
+        "source": 629,
+        "local": 629,
+        "pass": true
+      },
+      "link.y": {
+        "source": 87,
+        "local": 87,
+        "pass": true
+      },
+      "link.width": {
+        "source": 648,
+        "local": 648,
+        "pass": true
+      },
+      "link.height": {
+        "source": 40.84375,
+        "local": 40.84375,
+        "pass": true
+      },
+      "toggle.x": {
+        "source": 1255,
+        "local": 1255,
+        "pass": true
+      },
+      "toggle.y": {
+        "source": 25.5,
+        "local": 25.5,
+        "pass": true
+      },
+      "toggle.width": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "toggle.height": {
+        "source": 32,
+        "local": 32,
+        "pass": true
+      },
+      "logo.x": {
+        "source": 625,
+        "local": 625,
+        "pass": true
+      },
+      "logo.y": {
+        "source": 30.828125,
+        "local": 30.828125,
+        "pass": true
+      },
+      "logo.width": {
+        "source": 112.359375,
+        "local": 112.359375,
+        "pass": true
+      },
+      "logo.height": {
+        "source": 21.328125,
+        "local": 21.328125,
+        "pass": true
+      },
+      "label.x": {
+        "source": 629,
+        "local": 629,
+        "pass": true
+      },
+      "label.y": {
+        "source": 96,
+        "local": 96,
+        "pass": true
+      },
+      "label.width": {
+        "source": 138.34375,
+        "local": 138.34375,
+        "pass": true
+      },
+      "label.height": {
+        "source": 22.84375,
+        "local": 22.84375,
+        "pass": true
+      },
+      "linkCSS.fontSize": {
+        "source": "32px",
+        "local": "32px",
+        "pass": true
+      },
+      "linkCSS.fontWeight": {
+        "source": "500",
+        "local": "500",
+        "pass": true
+      },
+      "linkCSS.lineHeight": {
+        "source": "35.2px",
+        "local": "35.2px",
+        "pass": true
+      },
+      "linkCSS.letterSpacing": {
+        "source": "-1.92px",
+        "local": "-1.92px",
+        "pass": true
+      },
+      "linkCSS.color": {
+        "source": "rgb(32, 34, 26)",
+        "local": "rgb(32, 34, 26)",
+        "pass": true
+      },
+      "linkCSS.paddingTop": {
+        "source": "9px",
+        "local": "9px",
+        "pass": true
+      },
+      "linkCSS.paddingBottom": {
+        "source": "9px",
+        "local": "9px",
+        "pass": true
+      },
+      "cta.x": {
+        "source": 1747.15625,
+        "local": 1747.15625,
+        "pass": true
+      },
+      "cta.y": {
+        "source": 31,
+        "local": 31,
+        "pass": true
+      },
+      "cta.width": {
+        "source": 110.84375,
+        "local": 110.84375,
+        "pass": true
+      },
+      "cta.height": {
+        "source": 22,
+        "local": 22,
+        "pass": true
+      }
+    }
+  }
+]

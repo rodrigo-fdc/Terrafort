@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:3101/shell-preview",
+  "checks": [
+    "mobile: toggle, modal, focus trap, Escape, scroll lock and restoration",
+    "backdrop closes menu",
+    "close button",
+    "breakpoint closes modal and restores background",
+    "desktop: 680px panel, 94px empty height, 84px fixed header",
+    "single light theme",
+    "section attribute consumed at 44px threshold; logo remains original dark colour",
+    "Motion transition has intermediate width and converges under controlled clock",
+    "reduced motion: no Lenis, visible header, operational menu",
+    "two client-navigation unmount/remount cycles: no inherited scroll lock, Lenis class or inert state; one toggle per click",
+    "root page/layout/global CSS unchanged"
+  ],
+  "errors": [],
+  "failures": []
+}

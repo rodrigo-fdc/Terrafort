@@ -1,0 +1,44 @@
+{
+  "base": [
+    {
+      "tag": "INPUT",
+      "classes": "body -my-[12px] w-full bg-transparent py-[12px] text-warm-black placeholder:text-warm-black/40 focus:outline-none lg:my-0 lg:flex-1 lg:self-stretch lg:py-0 [font-feature-settings:'ss04']",
+      "style": {
+        "padding": "0px",
+        "borderBottom": "0px solid rgb(32, 34, 26)",
+        "borderTop": "0px solid rgb(32, 34, 26)",
+        "height": "53px",
+        "minHeight": "auto",
+        "gap": "normal",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "flex flex-col gap-[14px] pt-[11px] lg:flex-row lg:gap-0 lg:pt-0 lg:min-h-[53px] lg:items-center pb-[25px] lg:pb-0",
+      "style": {
+        "padding": "0px",
+        "borderBottom": "0px solid rgb(32, 34, 26)",
+        "borderTop": "0px solid rgb(32, 34, 26)",
+        "height": "53px",
+        "minHeight": "53px",
+        "gap": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "border-t border-warm-black/24",
+      "style": {
+        "padding": "0px",
+        "borderBottom": "0px solid oklab(0.247015 -0.00721075 0.0130845 / 0.24)",
+        "borderTop": "1px solid oklab(0.247015 -0.00721075 0.0130845 / 0.24)",
+        "height": "54px",
+        "minHeight": "0px",
+        "gap": "normal",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "dropdown": "<div class=\"flex flex-col gap-[14px] pt-[11px] lg:flex-row lg:gap-0 lg:pt-0 lg:min-h-[53px] lg:items-center pb-[25px] lg:pb-0\"><div class=\"flex items-center gap-2 lg:w-[213px] lg:shrink-0\"><span class=\"number-pill h-[19px] w-[28px] body-small lg:h-[21px] lg:w-[32px] standard\"><span>04</span></span><span class=\"body text-warm-black [font-feature-settings:'ss04'] cap-trim\">Where to*</span></div><button type=\"button\" aria-haspopup=\"listbox\" aria-expanded=\"true\" aria-label=\"Where to: General Enquiry\" class=\"flex items-center justify-between gap-2 text-left body -my-[12px] w-full bg-transparent py-[12px] text-warm-black placeholder:text-warm-black/40 focus:outline-none lg:my-0 lg:flex-1 lg:self-stretch lg:py-0 [font-feature-settings:'ss04']\"><span class=\"shrink-0 cap-trim text-warm-black/40\">General Enquiry</span><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 9 11\" class=\"h-[11px] w-[9px] shrink-0 transition-transform rotate-180\"><path fill=\"currentColor\" d=\"m8.688 6.222-4.347 4.347-4.34-4.34.972-.974 2.623 2.623V0L5.09.003l.004 7.873L7.718 5.25z\"></path></svg></button></div>"
+}

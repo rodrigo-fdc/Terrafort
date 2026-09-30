@@ -1,0 +1,36 @@
+Source: https://www.thirdway.com/_next/static/chunks/3_kjnk_cfpbuq.js
+Formatted lines 7617-7650
+    (i.default.registerPlugin(r.ScrollTrigger),
+      e.s(
+        [
+          "default",
+          0,
+          function ({ lerp: e = 0.13 }) {
+            let s = (0, o.useAtomValue)(w.scrollLockState) > 0,
+              a = (0, n.usePathname)();
+            return (
+              (0, t.useEffect)(() => {
+                if (
+                  window.matchMedia("(prefers-reduced-motion: reduce)").matches
+                )
+                  return;
+                let t = new g({ lerp: e, smoothWheel: !0 });
+                ((0, x.setLenis)(t), t.on("scroll", r.ScrollTrigger.update));
+                let n = (e) => t.raf(1e3 * e);
+                return (
+                  i.default.ticker.add(n),
+                  i.default.ticker.lagSmoothing(0),
+                  r.ScrollTrigger.refresh(),
+                  () => {
+                    (i.default.ticker.remove(n),
+                      t.destroy(),
+                      (0, x.setLenis)(null));
+                  }
+                );
+              }, [e]),
+              (0, t.useEffect)(() => {
+                let e = (0, x.getLenis)();
+                e && (s ? e.stop() : e.start());
+              }, [s]),
+              (0, t.useEffect)(() => {
+                if (!(0, v.isBackNavigation)()) {

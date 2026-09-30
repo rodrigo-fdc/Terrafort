@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "cases": [
+    "focus trap Tab/ShiftTab",
+    "Escape focus restore",
+    "inert and overflow restoration",
+    "three SPA routes with same document",
+    "active page unique",
+    "Back/Forward",
+    "two resize cycles",
+    "reduced motion backdrop",
+    "four URLs HTTP200",
+    "single header",
+    "no pageerror"
+  ],
+  "errors": []
+}

@@ -1,0 +1,816 @@
+[
+  {
+    "width": 375,
+    "reference": {
+      "footer": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 1471.34375,
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "text": "If you’re looking to build an exceptional space, let’s talk.You’v"
+      },
+      "media": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "text": ""
+      },
+      "cta": {
+        "x": 16,
+        "y": 274.78125,
+        "width": 328,
+        "height": 189.21875,
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "text": "If you’re looking to build an exceptional space, let’s talk."
+      },
+      "labels": [
+        {
+          "x": 16,
+          "y": 864,
+          "width": 115.5,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Explore"
+        },
+        {
+          "x": 186,
+          "y": 864,
+          "width": 158,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Find us"
+        },
+        {
+          "x": 186,
+          "y": 950.59375,
+          "width": 158,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Email"
+        },
+        {
+          "x": 186,
+          "y": 1019,
+          "width": 158,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Follow us"
+        }
+      ],
+      "links": [
+        {
+          "x": 16,
+          "y": 890.40625,
+          "width": 89.671875,
+          "height": 14.28125,
+          "fontSize": "20px",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.8px",
+          "text": "Approach"
+        },
+        {
+          "x": 16,
+          "y": 1161.65625,
+          "width": 44.578125,
+          "height": 24.5625,
+          "fontSize": "16px",
+          "lineHeight": "20.8px",
+          "letterSpacing": "-0.64px",
+          "text": "Careers"
+        }
+      ],
+      "legalRows": [
+        {
+          "ul": {
+            "x": 16,
+            "y": 1166.65625,
+            "width": 328,
+            "height": 186.5,
+            "fontSize": "16px",
+            "lineHeight": "20.8px",
+            "letterSpacing": "-0.64px",
+            "text": "CareersGovernancePrivacy PolicyCookiesAnti-Competitive PracticesM"
+          },
+          "rows": [
+            {
+              "x": 16,
+              "y": 1166.65625,
+              "width": 44.578125,
+              "height": 14.5625,
+              "fontSize": "16px",
+              "lineHeight": "20.8px",
+              "letterSpacing": "-0.64px",
+              "text": "Careers"
+            },
+            {
+              "x": 16,
+              "y": 1191.21875,
+              "width": 69.09375,
+              "height": 14.5625,
+              "fontSize": "16px",
+              "lineHeight": "20.8px",
+              "letterSpacing": "-0.64px",
+              "text": "Governance"
+            },
+            {
+              "x": 16,
+              "y": 1215.78125,
+              "width": 78.296875,
+              "height": 14.5625,
+              "fontSize": "16px",
+              "lineHeight": "20.8px",
+              "letterSpacing": "-0.64px",
+              "text": "Privacy Policy"
+            },
+            {
+              "x": 16,
+              "y": 1240.34375,
+              "width": 45.515625,
+              "height": 14.5625,
+              "fontSize": "16px",
+              "lineHeight": "20.8px",
+              "letterSpacing": "-0.64px",
+              "text": "Cookies"
+            },
+            {
+              "x": 16,
+              "y": 1264.90625,
+              "width": 150.734375,
+              "height": 14.5625,
+              "fontSize": "16px",
+              "lineHeight": "20.8px",
+              "letterSpacing": "-0.64px",
+              "text": "Anti-Competitive Practices"
+            },
+            {
+              "x": 16,
+              "y": 1289.46875,
+              "width": 266.171875,
+              "height": 14.5625,
+              "fontSize": "16px",
+              "lineHeight": "20.8px",
+              "letterSpacing": "-0.64px",
+              "text": "Modern Slavery & Human Trafficking Statement"
+            },
+            {
+              "x": 16,
+              "y": 1314.03125,
+              "width": 175.765625,
+              "height": 14.5625,
+              "fontSize": "16px",
+              "lineHeight": "20.8px",
+              "letterSpacing": "-0.64px",
+              "text": "Corporate Social Responsibility"
+            },
+            {
+              "x": 16,
+              "y": 1338.59375,
+              "width": 111.25,
+              "height": 14.5625,
+              "fontSize": "16px",
+              "lineHeight": "20.8px",
+              "letterSpacing": "-0.64px",
+              "text": "Equal Opportunities"
+            }
+          ]
+        }
+      ],
+      "bottom": {
+        "x": 16,
+        "y": 1431.75,
+        "width": 95.984375,
+        "height": 15.59375,
+        "fontSize": "12px",
+        "lineHeight": "15.6px",
+        "letterSpacing": "-0.24px",
+        "text": "© 2026 Thirdway"
+      }
+    },
+    "local": {
+      "footer": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 1457.28125,
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "text": "If you’re looking to build an exceptional space, let’s talk.You’v"
+      },
+      "media": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 480,
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.64px",
+        "text": "If you’re looking to build an exceptional space, let’s talk."
+      },
+      "cta": {
+        "x": 16,
+        "y": 274.78125,
+        "width": 328,
+        "height": 189.21875,
+        "fontSize": "32px",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-1.92px",
+        "text": "If you’re looking to build an exceptional space, let’s talk."
+      },
+      "labels": [
+        {
+          "x": 16,
+          "y": 864,
+          "width": 113,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Explore"
+        },
+        {
+          "x": 188,
+          "y": 864,
+          "width": 156,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Find us"
+        },
+        {
+          "x": 188,
+          "y": 950.59375,
+          "width": 156,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Email"
+        },
+        {
+          "x": 188,
+          "y": 1019,
+          "width": 156,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Follow us"
+        }
+      ],
+      "links": [
+        {
+          "x": 16,
+          "y": 890.40625,
+          "width": 89.234375,
+          "height": 14.28125,
+          "fontSize": "20px",
+          "lineHeight": "22px",
+          "letterSpacing": "-0.8px",
+          "text": "Approach"
+        },
+        {
+          "x": 16,
+          "y": 1161.65625,
+          "width": 44.578125,
+          "height": 24.5625,
+          "fontSize": "12px",
+          "lineHeight": "15.6px",
+          "letterSpacing": "-0.24px",
+          "text": "Careers"
+        }
+      ],
+      "legalRows": [
+        {
+          "ul": {
+            "x": 16,
+            "y": 1166.65625,
+            "width": 328,
+            "height": 186.5,
+            "fontSize": "12px",
+            "lineHeight": "15.6px",
+            "letterSpacing": "-0.24px",
+            "text": "CareersGovernancePrivacy PolicyCookiesAnti-Competitive PracticesM"
+          },
+          "rows": [
+            {
+              "x": 16,
+              "y": 1166.65625,
+              "width": 328,
+              "height": 14.5625,
+              "fontSize": "12px",
+              "lineHeight": "15.6px",
+              "letterSpacing": "-0.24px",
+              "text": "Careers"
+            },
+            {
+              "x": 16,
+              "y": 1191.21875,
+              "width": 328,
+              "height": 14.5625,
+              "fontSize": "12px",
+              "lineHeight": "15.6px",
+              "letterSpacing": "-0.24px",
+              "text": "Governance"
+            },
+            {
+              "x": 16,
+              "y": 1215.78125,
+              "width": 328,
+              "height": 14.5625,
+              "fontSize": "12px",
+              "lineHeight": "15.6px",
+              "letterSpacing": "-0.24px",
+              "text": "Privacy Policy"
+            },
+            {
+              "x": 16,
+              "y": 1240.34375,
+              "width": 328,
+              "height": 14.5625,
+              "fontSize": "12px",
+              "lineHeight": "15.6px",
+              "letterSpacing": "-0.24px",
+              "text": "Cookies"
+            },
+            {
+              "x": 16,
+              "y": 1264.90625,
+              "width": 328,
+              "height": 14.5625,
+              "fontSize": "12px",
+              "lineHeight": "15.6px",
+              "letterSpacing": "-0.24px",
+              "text": "Anti-Competitive Practices"
+            },
+            {
+              "x": 16,
+              "y": 1289.46875,
+              "width": 328,
+              "height": 14.5625,
+              "fontSize": "12px",
+              "lineHeight": "15.6px",
+              "letterSpacing": "-0.24px",
+              "text": "Modern Slavery & Human Trafficking Statement"
+            },
+            {
+              "x": 16,
+              "y": 1314.03125,
+              "width": 328,
+              "height": 14.5625,
+              "fontSize": "12px",
+              "lineHeight": "15.6px",
+              "letterSpacing": "-0.24px",
+              "text": "Corporate Social Responsibility"
+            },
+            {
+              "x": 16,
+              "y": 1338.59375,
+              "width": 328,
+              "height": 14.5625,
+              "fontSize": "12px",
+              "lineHeight": "15.6px",
+              "letterSpacing": "-0.24px",
+              "text": "Equal Opportunities"
+            }
+          ]
+        }
+      ],
+      "bottom": {
+        "x": 16,
+        "y": 1417.6875,
+        "width": 95.03125,
+        "height": 15.59375,
+        "fontSize": "12px",
+        "lineHeight": "15.6px",
+        "letterSpacing": "-0.24px",
+        "text": "© 2026 Thirdway"
+      }
+    }
+  },
+  {
+    "width": 1440,
+    "reference": {
+      "footer": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 1297,
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "text": "If you’re looking to build an exceptional space, let’s talk.You’v"
+      },
+      "media": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "text": ""
+      },
+      "cta": {
+        "x": 713,
+        "y": 334,
+        "width": 688,
+        "height": 248,
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "text": "If you’re looking to build an exceptional space, let’s talk."
+      },
+      "labels": [
+        {
+          "x": 1064.75,
+          "y": 642,
+          "width": 328.25,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Explore"
+        },
+        {
+          "x": 720.5,
+          "y": 642,
+          "width": 270.875,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Find us"
+        },
+        {
+          "x": 720.5,
+          "y": 740.59375,
+          "width": 270.875,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Email"
+        },
+        {
+          "x": 720.5,
+          "y": 821,
+          "width": 270.875,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Follow us"
+        }
+      ],
+      "links": [
+        {
+          "x": 1064.75,
+          "y": 668.40625,
+          "width": 138.34375,
+          "height": 22.84375,
+          "fontSize": "32px",
+          "lineHeight": "35.2px",
+          "letterSpacing": "-1.92px",
+          "text": "Approach"
+        },
+        {
+          "x": 720.5,
+          "y": 1077,
+          "width": 52,
+          "height": 22,
+          "fontSize": "18px",
+          "lineHeight": "23.4px",
+          "letterSpacing": "-0.72px",
+          "text": "Careers"
+        }
+      ],
+      "legalRows": [
+        {
+          "ul": {
+            "x": 720.5,
+            "y": 1082,
+            "width": 672.5,
+            "height": 152,
+            "fontSize": "18px",
+            "lineHeight": "23.4px",
+            "letterSpacing": "-0.72px",
+            "text": "CareersGovernancePrivacy PolicyCookiesAnti-Competitive PracticesM"
+          },
+          "rows": [
+            {
+              "x": 720.5,
+              "y": 1082,
+              "width": 52,
+              "height": 12,
+              "fontSize": "18px",
+              "lineHeight": "23.4px",
+              "letterSpacing": "-0.72px",
+              "text": "Careers"
+            },
+            {
+              "x": 720.5,
+              "y": 1102,
+              "width": 80.609375,
+              "height": 12,
+              "fontSize": "18px",
+              "lineHeight": "23.4px",
+              "letterSpacing": "-0.72px",
+              "text": "Governance"
+            },
+            {
+              "x": 720.5,
+              "y": 1122,
+              "width": 91.34375,
+              "height": 12,
+              "fontSize": "18px",
+              "lineHeight": "23.4px",
+              "letterSpacing": "-0.72px",
+              "text": "Privacy Policy"
+            },
+            {
+              "x": 720.5,
+              "y": 1142,
+              "width": 53.09375,
+              "height": 12,
+              "fontSize": "18px",
+              "lineHeight": "23.4px",
+              "letterSpacing": "-0.72px",
+              "text": "Cookies"
+            },
+            {
+              "x": 720.5,
+              "y": 1162,
+              "width": 175.84375,
+              "height": 12,
+              "fontSize": "18px",
+              "lineHeight": "23.4px",
+              "letterSpacing": "-0.72px",
+              "text": "Anti-Competitive Practices"
+            },
+            {
+              "x": 720.5,
+              "y": 1182,
+              "width": 310.53125,
+              "height": 12,
+              "fontSize": "18px",
+              "lineHeight": "23.4px",
+              "letterSpacing": "-0.72px",
+              "text": "Modern Slavery & Human Trafficking Statement"
+            },
+            {
+              "x": 720.5,
+              "y": 1202,
+              "width": 205.046875,
+              "height": 12,
+              "fontSize": "18px",
+              "lineHeight": "23.4px",
+              "letterSpacing": "-0.72px",
+              "text": "Corporate Social Responsibility"
+            },
+            {
+              "x": 720.5,
+              "y": 1222,
+              "width": 129.78125,
+              "height": 12,
+              "fontSize": "18px",
+              "lineHeight": "23.4px",
+              "letterSpacing": "-0.72px",
+              "text": "Equal Opportunities"
+            }
+          ]
+        }
+      ],
+      "bottom": {
+        "x": 32,
+        "y": 1264.015625,
+        "width": 95.984375,
+        "height": 13.1875,
+        "fontSize": "12px",
+        "lineHeight": "13.2px",
+        "letterSpacing": "-0.24px",
+        "text": "© 2026 Thirdway"
+      }
+    },
+    "local": {
+      "footer": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 1297,
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "text": "If you’re looking to build an exceptional space, let’s talk.You’v"
+      },
+      "media": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 606,
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.72px",
+        "text": "If you’re looking to build an exceptional space, let’s talk."
+      },
+      "cta": {
+        "x": 713,
+        "y": 334,
+        "width": 688,
+        "height": 248,
+        "fontSize": "48px",
+        "lineHeight": "47.04px",
+        "letterSpacing": "-2.88px",
+        "text": "If you’re looking to build an exceptional space, let’s talk."
+      },
+      "labels": [
+        {
+          "x": 1064.75,
+          "y": 642,
+          "width": 328.25,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Explore"
+        },
+        {
+          "x": 720.5,
+          "y": 642,
+          "width": 270.875,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Find us"
+        },
+        {
+          "x": 720.5,
+          "y": 740.59375,
+          "width": 270.875,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Email"
+        },
+        {
+          "x": 720.5,
+          "y": 821,
+          "width": 270.875,
+          "height": 10.40625,
+          "fontSize": "16px",
+          "lineHeight": "17.6px",
+          "letterSpacing": "-0.64px",
+          "text": "Follow us"
+        }
+      ],
+      "links": [
+        {
+          "x": 1064.75,
+          "y": 668.40625,
+          "width": 137.640625,
+          "height": 22.84375,
+          "fontSize": "32px",
+          "lineHeight": "35.2px",
+          "letterSpacing": "-1.92px",
+          "text": "Approach"
+        },
+        {
+          "x": 720.5,
+          "y": 1074,
+          "width": 52,
+          "height": 22,
+          "fontSize": "14px",
+          "lineHeight": "18.2px",
+          "letterSpacing": "-0.28px",
+          "text": "Careers"
+        }
+      ],
+      "legalRows": [
+        {
+          "ul": {
+            "x": 720.5,
+            "y": 1079,
+            "width": 640.5,
+            "height": 152,
+            "fontSize": "14px",
+            "lineHeight": "18.2px",
+            "letterSpacing": "-0.28px",
+            "text": "CareersGovernancePrivacy PolicyCookiesAnti-Competitive PracticesM"
+          },
+          "rows": [
+            {
+              "x": 720.5,
+              "y": 1079,
+              "width": 640.5,
+              "height": 12,
+              "fontSize": "14px",
+              "lineHeight": "18.2px",
+              "letterSpacing": "-0.28px",
+              "text": "Careers"
+            },
+            {
+              "x": 720.5,
+              "y": 1099,
+              "width": 640.5,
+              "height": 12,
+              "fontSize": "14px",
+              "lineHeight": "18.2px",
+              "letterSpacing": "-0.28px",
+              "text": "Governance"
+            },
+            {
+              "x": 720.5,
+              "y": 1119,
+              "width": 640.5,
+              "height": 12,
+              "fontSize": "14px",
+              "lineHeight": "18.2px",
+              "letterSpacing": "-0.28px",
+              "text": "Privacy Policy"
+            },
+            {
+              "x": 720.5,
+              "y": 1139,
+              "width": 640.5,
+              "height": 12,
+              "fontSize": "14px",
+              "lineHeight": "18.2px",
+              "letterSpacing": "-0.28px",
+              "text": "Cookies"
+            },
+            {
+              "x": 720.5,
+              "y": 1159,
+              "width": 640.5,
+              "height": 12,
+              "fontSize": "14px",
+              "lineHeight": "18.2px",
+              "letterSpacing": "-0.28px",
+              "text": "Anti-Competitive Practices"
+            },
+            {
+              "x": 720.5,
+              "y": 1179,
+              "width": 640.5,
+              "height": 12,
+              "fontSize": "14px",
+              "lineHeight": "18.2px",
+              "letterSpacing": "-0.28px",
+              "text": "Modern Slavery & Human Trafficking Statement"
+            },
+            {
+              "x": 720.5,
+              "y": 1199,
+              "width": 640.5,
+              "height": 12,
+              "fontSize": "14px",
+              "lineHeight": "18.2px",
+              "letterSpacing": "-0.28px",
+              "text": "Corporate Social Responsibility"
+            },
+            {
+              "x": 720.5,
+              "y": 1219,
+              "width": 640.5,
+              "height": 12,
+              "fontSize": "14px",
+              "lineHeight": "18.2px",
+              "letterSpacing": "-0.28px",
+              "text": "Equal Opportunities"
+            }
+          ]
+        }
+      ],
+      "bottom": {
+        "x": 32,
+        "y": 1265,
+        "width": 95.03125,
+        "height": 13.1875,
+        "fontSize": "12px",
+        "lineHeight": "13.2px",
+        "letterSpacing": "-0.24px",
+        "text": "© 2026 Thirdway"
+      }
+    }
+  }
+]

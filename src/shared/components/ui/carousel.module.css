@@ -1,0 +1,122 @@
+.root {
+  min-width: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--ui-carousel-controls-gap);
+}
+.root *,
+.root *::before,
+.root *::after {
+  box-sizing: border-box;
+}
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ui-carousel-gap);
+  order: 1;
+}
+.toolbar[hidden] {
+  display: none;
+}
+.count {
+  display: flex;
+  align-items: center;
+  gap: var(--ui-carousel-count-gap);
+}
+.controls {
+  display: flex;
+  gap: var(--ui-carousel-controls-spacing);
+  margin-left: auto;
+}
+.previous {
+  transform: rotate(180deg);
+}
+.viewport {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  position: relative;
+}
+.viewport::-webkit-scrollbar {
+  display: none;
+}
+.viewport:focus-visible {
+  outline: var(--ui-ring-width) solid var(--ui-ring);
+  outline-offset: var(--ui-ring-offset);
+}
+.viewport[data-dragging] {
+  scroll-snap-type: none;
+  cursor: grabbing;
+  user-select: none;
+}
+.viewport[data-dragging] * {
+  cursor: grabbing;
+  user-select: none;
+}
+.track {
+  display: flex;
+  align-items: stretch;
+  gap: var(--ui-carousel-gap);
+}
+.item {
+  flex: 0 0 var(--ui-carousel-item-width);
+  min-width: 0;
+  scroll-snap-align: start;
+}
+.item > * {
+  height: 100%;
+}
+.teams {
+  --ui-carousel-item-width: var(--ui-carousel-team-width);
+}
+.journal {
+  --ui-carousel-item-width: var(--ui-carousel-journal-width);
+}
+.journal .toolbar {
+  display: none;
+}
+.status {
+  position: absolute;
+  width: var(--ui-border-width);
+  height: var(--ui-border-width);
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+@media (min-width: 1024px) {
+  .toolbar {
+    order: -1;
+  }
+  .journal .viewport {
+    overflow: visible;
+  }
+  .journal .track {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+  .journal .item {
+    grid-column: span 4;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .viewport {
+    scroll-behavior: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .journal .track {
+    grid-template-columns: repeat(24, minmax(0, 1fr));
+    align-items: start;
+  }
+  .journal .item {
+    grid-column: span 6;
+  }
+  .journal .item:first-child {
+    grid-column: span 12;
+  }
+}

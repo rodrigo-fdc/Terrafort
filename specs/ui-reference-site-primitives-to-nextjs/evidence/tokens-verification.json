@@ -1,0 +1,30 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "width": 375,
+      "foreground": "rgb(32, 34, 26)",
+      "background": "rgb(247, 241, 233)",
+      "fontFamily": "UiMarist, Georgia, serif",
+      "displaySize": "23px",
+      "bodySize": "16px",
+      "headingSize": "32px",
+      "waldenburg": true,
+      "marist": true,
+      "existingMenu": "PASS"
+    },
+    {
+      "width": 1440,
+      "foreground": "rgb(32, 34, 26)",
+      "background": "rgb(247, 241, 233)",
+      "fontFamily": "UiMarist, Georgia, serif",
+      "displaySize": "28px",
+      "bodySize": "18px",
+      "headingSize": "64px",
+      "waldenburg": true,
+      "marist": true,
+      "existingMenu": "PASS"
+    }
+  ],
+  "errors": []
+}

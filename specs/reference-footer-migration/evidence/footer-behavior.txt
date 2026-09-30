@@ -1,0 +1,722 @@
+    function p({ progress: e, children: n, className: i }) {
+      let o = (0, c.useRef)(null),
+        s = (0, c.useRef)(null),
+        [a, l] = (0, c.useState)(0);
+      (0, c.useEffect)(() => {
+        let e = () => {
+          let e = o.current?.offsetHeight ?? 0,
+            t = s.current?.offsetHeight ?? 0;
+          l(e > 0 ? (t / 2 + 4) / e : 0);
+        };
+        return (
+          e(),
+          window.addEventListener("resize", e),
+          () => window.removeEventListener("resize", e)
+        );
+      }, [n]);
+      let d = n ? a : 0,
+        u = Math.min(Math.max(e, 0), 1),
+        m = d + (0.15000000000000002 * u + 0.85 * u * u * u) * (0.5 - d);
+      return (0, t.jsxs)("div", {
+        ref: o,
+        className: (0, r.cn)(
+          "relative w-[9.32px] shrink-0 [--rul-step-major:40px] [--rul-step-minor:4px] [--rul-tick-major:10.9688px] [--rul-tick-minor:5.48438px]",
+          "lg:w-[17px] lg:[--rul-step-major:80px] lg:[--rul-step-minor:8px] lg:[--rul-tick-major:20px] lg:[--rul-tick-minor:10px]",
+          i,
+        ),
+        children: [
+          (0, t.jsx)(h, { color: "#666763" }),
+          (0, t.jsx)("div", {
+            className:
+              "pointer-events-none absolute inset-x-0 top-0 overflow-hidden",
+            style: { height: `calc(${100 * m}% + 1px)` },
+            "aria-hidden": !0,
+            children: (0, t.jsx)("div", {
+              className: "absolute top-0 right-0 h-full w-full",
+              children: (0, t.jsx)(h, { color: "#f7f1e9" }),
+            }),
+          }),
+          n &&
+            (0, t.jsxs)("div", {
+              ref: s,
+              className:
+                "absolute left-full flex -translate-y-1/2 items-center gap-4",
+              style: { top: `${100 * m}%` },
+              children: [
+                (0, t.jsx)("span", {
+                  className: "h-px w-10 shrink-0 bg-warm-white",
+                }),
+                n,
+              ],
+            }),
+        ],
+      });
+    }
+    function m({ text: e, link: n }) {
+      let i = /^(.*?)\[(.+?)\](.*)$/s.exec(e),
+        r = "small-text";
+      if (!i)
+        return (0, t.jsx)("p", {
+          className: r,
+          children: e.replace(/[[\]]/g, ""),
+        });
+      let [, o, s, a] = i,
+        l =
+          n &&
+          (0, u.getRemappedUrl)({ ...n, linkType: n.linkType ?? "internal" });
+      return (0, t.jsxs)("p", {
+        className: r,
+        children: [
+          o,
+          l
+            ? (0, t.jsx)(u.default, {
+                ...n,
+                title: void 0,
+                className: "pointer-events-auto link-line-reverse",
+                children: s,
+              })
+            : (0, t.jsx)("span", { className: "underline", children: s }),
+          a,
+        ],
+      });
+    }
+    function f({
+      metres: e,
+      totalMetres: n = 0,
+      live: i = !0,
+      comparisons: o,
+      layout: s = "stacked",
+      className: a,
+    }) {
+      let l,
+        u = i || n < 1,
+        h = o?.length
+          ? u
+            ? (l = [...o]
+                .sort((e, t) => (e.distance ?? 0) - (t.distance ?? 0))
+                .filter((t) => (t.distance ?? 0) <= e))[l.length - 1]
+            : [...o]
+                .filter((e) => null != e.distance)
+                .sort(
+                  (e, t) =>
+                    Math.abs((e.distance ?? 0) - n) -
+                    Math.abs((t.distance ?? 0) - n),
+                )[0]
+          : void 0,
+        p = "beside" === s,
+        [g, x] = (0, c.useState)(h),
+        [v, w] = (0, c.useState)(!1);
+      (0, c.useEffect)(() => {
+        if (h === g) {
+          let e = requestAnimationFrame(() => w(!1));
+          return () => cancelAnimationFrame(e);
+        }
+        w(!0);
+        let e = setTimeout(() => x(h), 250);
+        return () => clearTimeout(e);
+      }, [h, g]);
+      let b = (0, r.cn)(
+          "transition-opacity duration-250",
+          v ? "opacity-0" : "opacity-100",
+        ),
+        y = Math.round(100 * e),
+        j = g?.distance != null && (!u || e >= g.distance) ? g.distance : null,
+        k = null != j ? `${j}m` : y >= 100 ? `${Math.round(e)}m` : `${y}cm`;
+      return (0, t.jsxs)("div", {
+        className: (0, r.cn)(
+          "flex text-warm-white",
+          p ? "items-center gap-4" : "flex-col gap-4",
+          a,
+        ),
+        children: [
+          g?.image?.responsiveImage &&
+            (0, t.jsx)("span", {
+              className: (0, r.cn)(
+                "relative block h-[68px] w-[98px] shrink-0 overflow-hidden rounded-[2px]",
+                b,
+              ),
+              children: (0, t.jsx)(d.default, {
+                ...g.image,
+                smWidth: 98,
+                mdWidth: 98,
+                className: "size-full object-cover",
+              }),
+            }),
+          (0, t.jsxs)("div", {
+            className: "flex w-56 flex-col gap-[13px]",
+            children: [
+              (0, t.jsxs)("p", {
+                className: (0, r.cn)(
+                  "font-sans font-medium tracking-[-0.04em] cap-trim",
+                  p ? "text-[20px] leading-[1.1]" : "text-[18px] leading-[1.3]",
+                ),
+                children: ["You’ve scrolled ", k],
+              }),
+              g?.text &&
+                (0, t.jsx)("div", {
+                  className: b,
+                  children: (0, t.jsx)(m, { text: g.text, link: g.link }),
+                }),
+            ],
+          }),
+        ],
+      });
+    }
+    var g = e.i(89779);
+    let x = "bg-[#666763]",
+      v =
+        "font-display text-[16px] leading-[1.1] tracking-[-0.04em] not-italic cap-trim",
+      w = "small-text not-italic",
+      b = "link-line",
+      y = (e, t) =>
+        (0, u.getRemappedUrl)({ ...e, linkType: e.linkType ?? "internal" }) ===
+        t;
+    function j({ logo: e }) {
+      let n =
+        e?.responsiveImage || e?.mimeType === "image/svg+xml"
+          ? (0, t.jsx)(d.default, {
+              ...e,
+              smWidth: 319,
+              mdWidth: 585,
+              className: "block h-[61px] w-[319px] lg:h-28 lg:w-[585px]",
+            })
+          : (0, t.jsx)(i.default, {
+              className:
+                "block h-[61px] w-[319px] overflow-visible lg:h-28 lg:w-[585px]",
+            });
+      return (0, t.jsx)("div", {
+        className:
+          "flex h-[319px] w-[61px] shrink-0 items-center justify-center text-warm-white lg:h-[585px] lg:w-28",
+        children: (0, t.jsx)("div", {
+          className: "flex-none -rotate-90",
+          children: n,
+        }),
+      });
+    }
+    function k({ media: e, mediaMobile: n }) {
+      return (0, t.jsxs)("div", {
+        className: (0, r.cn)(
+          "relative w-full overflow-hidden",
+          "h-[480px] md:h-[400px] lg:h-[606px]",
+        ),
+        children: [
+          (0, t.jsx)(g.default, {
+            ...e,
+            fit: "cover",
+            lazy: !1,
+            videoLazy: !0,
+            smWidth: 393,
+            mdWidth: 1440,
+            className: (0, r.cn)("size-full", n && "hidden md:block"),
+          }),
+          n &&
+            (0, t.jsx)(g.default, {
+              ...n,
+              fit: "cover",
+              lazy: !1,
+              videoLazy: !0,
+              smWidth: 393,
+              mdWidth: 768,
+              className: "size-full md:hidden",
+            }),
+        ],
+      });
+    }
+    function E({ heading: e }) {
+      let n = (0, o.useSetAtom)(s.contactModalOpenState);
+      if (!e) return null;
+      let i = /^(.*?)\[(.+?)\](.*)$/s.exec(e);
+      return (0, t.jsx)("div", {
+        className:
+          "pointer-events-none absolute inset-y-0 left-1/2 w-full max-w-[1920px] -translate-x-1/2",
+        children: (0, t.jsx)("div", {
+          role: "button",
+          tabIndex: 0,
+          onClick: () => n(!0),
+          onKeyDown: (e) => {
+            ("Enter" === e.key || " " === e.key) && (e.preventDefault(), n(!0));
+          },
+          className:
+            "group pointer-events-auto absolute inset-x-4 bottom-4 flex flex-col items-start justify-start rounded-[4px] bg-warm-white px-4 pt-6 pb-18 text-left text-warm-black transition-colors duration-[400ms] hover:bg-cream md:inset-x-auto md:right-6 md:bottom-6 md:w-[361px] lg:right-8 lg:bottom-8 lg:h-[248px] lg:w-[635px] lg:p-8 xl:right-6 xl:bottom-6 xl:w-[688px] 2xl:w-[928px]",
+          children: (0, t.jsx)("p", {
+            className:
+              "font-sans text-[32px] leading-[1.1] font-medium tracking-[-0.06em] cap-trim lg:text-[48px] lg:leading-[0.98]",
+            children: i
+              ? (0, t.jsxs)(t.Fragment, {
+                  children: [
+                    i[1],
+                    (0, t.jsxs)("span", {
+                      className: "relative",
+                      children: [
+                        i[2],
+                        (0, t.jsx)("span", {
+                          className:
+                            "group-heavy-link-line bottom-[2px] h-[3px] lg:bottom-[4px] lg:h-[4px]",
+                        }),
+                      ],
+                    }),
+                    i[3],
+                  ],
+                })
+              : e,
+          }),
+        }),
+      });
+    }
+    function N({ label: e, children: n }) {
+      return (0, t.jsxs)("div", {
+        className: "flex flex-col gap-3 lg:gap-4",
+        children: [(0, t.jsx)("p", { className: v, children: e }), n],
+      });
+    }
+    function S({ address: e, email: n, socials: i, className: o }) {
+      let s = (function (e) {
+        if (!e) return [];
+        let t = [
+          ...(e.street ?? "")
+            .split(",")
+            .map((e) => e.trim())
+            .filter(Boolean),
+          [
+            [e.city, e.region]
+              .filter(Boolean)
+              .filter((e, t, n) => n.indexOf(e) === t)
+              .join(", "),
+            e.postcode,
+          ]
+            .filter(Boolean)
+            .join(", "),
+        ].filter(Boolean);
+        return t.map((e, n) => (n < t.length - 1 ? `${e},` : e));
+      })(e);
+      return (0, t.jsxs)("div", {
+        className: (0, r.cn)("flex flex-col gap-9 lg:gap-11", o),
+        children: [
+          s.length > 0 &&
+            (0, t.jsx)(N, {
+              label: "Find us",
+              children: (0, t.jsx)("address", {
+                className: w,
+                children: s.map((e, n) =>
+                  (0, t.jsx)("span", { className: "block", children: e }, n),
+                ),
+              }),
+            }),
+          n &&
+            (0, t.jsx)(N, {
+              label: "Email",
+              children: (0, t.jsx)("a", {
+                href: `mailto:${n}`,
+                className: "group -my-[7px] block self-start py-[7px]",
+                children: (0, t.jsx)("span", {
+                  className: (0, r.cn)(
+                    w,
+                    b,
+                    "group-hover:[background-size:100%_1px] group-hover:[background-position:0%_100%]",
+                  ),
+                  children: n,
+                }),
+              }),
+            }),
+          i &&
+            i.length > 0 &&
+            (0, t.jsx)(N, {
+              label: "Follow us",
+              children: (0, t.jsx)("ul", {
+                className: "flex flex-col items-start gap-2.5 lg:gap-2",
+                children: i.map((e) =>
+                  (0, t.jsx)(
+                    "li",
+                    {
+                      children: (0, t.jsx)(u.default, {
+                        ...e,
+                        title: void 0,
+                        className: "group -my-[5px] block py-[8px]",
+                        children: (0, t.jsx)("span", {
+                          className: (0, r.cn)(
+                            w,
+                            b,
+                            "group-hover:[background-size:100%_1px] group-hover:[background-position:0%_100%]",
+                          ),
+                          dangerouslySetInnerHTML: { __html: e.title ?? "" },
+                        }),
+                      }),
+                    },
+                    e.id,
+                  ),
+                ),
+              }),
+            }),
+        ],
+      });
+    }
+    function T({ links: e, className: i }) {
+      let o = (0, n.usePathname)();
+      return e.length
+        ? (0, t.jsxs)("div", {
+            className: (0, r.cn)("flex flex-col gap-4", i),
+            children: [
+              (0, t.jsx)("p", { className: v, children: "Explore" }),
+              (0, t.jsx)("ul", {
+                className: "flex flex-col gap-3",
+                children: e.map((e) => {
+                  let n = y(e, o);
+                  return (0, t.jsx)(
+                    "li",
+                    {
+                      children: (0, t.jsx)(u.default, {
+                        ...e,
+                        "aria-current": n ? "page" : void 0,
+                        className: (0, r.cn)(
+                          "block w-fit font-sans text-[20px] leading-[1.1] font-medium tracking-[-0.04em] whitespace-nowrap transition-opacity cap-trim hover:opacity-70 lg:text-[32px] lg:tracking-[-0.06em]",
+                          n && "opacity-60",
+                        ),
+                      }),
+                    },
+                    e.id,
+                  );
+                }),
+              }),
+            ],
+          })
+        : null;
+    }
+    function _({ links: e, className: i }) {
+      let o = (0, n.usePathname)();
+      return (0, t.jsx)("ul", {
+        className: (0, r.cn)("flex flex-col items-start gap-2.5 lg:gap-2", i),
+        children: e.map((e) => {
+          let n = y(e, o);
+          return (0, t.jsx)(
+            "li",
+            {
+              children: (0, t.jsx)(u.default, {
+                ...e,
+                title: void 0,
+                "aria-current": n ? "page" : void 0,
+                className: (0, r.cn)(
+                  "group -my-[5px] block py-[8px] lg:py-[6px]",
+                  n && "opacity-60",
+                ),
+                children: (0, t.jsx)("span", {
+                  className: (0, r.cn)(
+                    "font-sans text-[12px] leading-[1.3] font-medium tracking-[-0.02em] lg:text-[14px]",
+                    b,
+                    "group-hover:[background-size:100%_1px] group-hover:[background-position:0%_100%]",
+                  ),
+                  dangerouslySetInnerHTML: { __html: e.title ?? "" },
+                }),
+              }),
+            },
+            e.id,
+          );
+        }),
+      });
+    }
+    function L({ className: e }) {
+      let n = new Date().getFullYear();
+      return (0, t.jsxs)("div", {
+        className: (0, r.cn)(
+          "flex items-end justify-between label text-warm-white lg:items-baseline",
+          e,
+        ),
+        children: [
+          (0, t.jsxs)("p", { children: ["© ", n, " ", "Thirdway"] }),
+          (0, t.jsxs)("p", {
+            className: "text-right",
+            children: [
+              (0, t.jsxs)("span", {
+                className: "block lg:inline",
+                children: [
+                  "Brand & Website by",
+                  " ",
+                  (0, t.jsx)("a", {
+                    href: "https://howandhow.com",
+                    target: "_blank",
+                    rel: "noreferrer",
+                    className:
+                      "group relative inline-block before:absolute before:inset-x-0 before:-inset-y-[9px] before:content-['']",
+                    children: (0, t.jsx)("span", {
+                      className: "group-link-line",
+                      children: "How&How",
+                    }),
+                  }),
+                ],
+              }),
+              (0, t.jsx)("span", {
+                "aria-hidden": !0,
+                className: "mx-[8px] hidden text-warm-white/40 lg:inline",
+                children: "·",
+              }),
+              (0, t.jsxs)("span", {
+                className: "mt-2.5 block lg:mt-0 lg:inline",
+                children: [
+                  "Built by",
+                  " ",
+                  (0, t.jsx)("a", {
+                    href: "https://hamblyfreeman.com",
+                    target: "_blank",
+                    rel: "noreferrer",
+                    className:
+                      "group relative inline-block before:absolute before:inset-x-0 before:-inset-y-[9px] before:content-['']",
+                    children: (0, t.jsx)("span", {
+                      className: "group-link-line",
+                      children: "Hambly Freeman",
+                    }),
+                  }),
+                ],
+              }),
+            ],
+          }),
+        ],
+      });
+    }
+    e.s(
+      [
+        "default",
+        0,
+        function () {
+          let e = (0, l.useSiteSettings)().option ?? {},
+            n = (0, o.useAtomValue)(a.pageFooterOverrideAtom),
+            i = !!e.scrollMeterLive,
+            {
+              metres: s,
+              totalMetres: d,
+              progress: u,
+            } = (function () {
+              let [e, t] = (0, c.useState)({
+                metres: 0,
+                totalMetres: 0,
+                progress: 0,
+              });
+              return (
+                (0, c.useEffect)(() => {
+                  let e = 0,
+                    n = () => {
+                      e = 0;
+                      let n = window.scrollY,
+                        i =
+                          document.documentElement.scrollHeight -
+                          window.innerHeight,
+                        r = i > 0 ? Math.min(n / i, 1) : 0;
+                      t({
+                        metres: Math.max(0, n / 3779.5276),
+                        totalMetres: Math.max(0, i / 3779.5276),
+                        progress: r,
+                      });
+                    },
+                    i = () => {
+                      e || (e = requestAnimationFrame(n));
+                    };
+                  return (
+                    n(),
+                    window.addEventListener("scroll", i, { passive: !0 }),
+                    window.addEventListener("resize", i),
+                    () => {
+                      (window.removeEventListener("scroll", i),
+                        window.removeEventListener("resize", i),
+                        e && cancelAnimationFrame(e));
+                    }
+                  );
+                }, []),
+                e
+              );
+            })(),
+            h = n?.scrollComparisons?.length
+              ? n.scrollComparisons
+              : (e.scrollComparisons ?? []),
+            m = n?.media?.mediaType ? n.media : null,
+            g = m ?? e.footerMedia,
+            v = m
+              ? n?.mediaMobile?.mediaType
+                ? n.mediaMobile
+                : null
+              : e.footerMediaMobile,
+            w = n?.heading || e.footerHeading,
+            b = e.footerExplore?.length ? e.footerExplore : (e.menuLinks ?? []),
+            y = e.footerLinks ?? [],
+            N = (0, t.jsx)(S, {
+              address: e.address,
+              email: e.email,
+              socials: e.externalLinks,
+            }),
+            M = (0, t.jsx)(T, { links: b }),
+            O = (0, t.jsx)(_, { links: y }),
+            C = { metres: s, totalMetres: d, live: i, comparisons: h },
+            P = (0, t.jsx)(f, { ...C, layout: "stacked" }),
+            R = (0, t.jsx)(f, { ...C, layout: "beside" }),
+            A = (0, t.jsx)(j, { logo: e.footerLogo }),
+            z = (0, t.jsxs)("div", {
+              className:
+                "bg-warm-black pb-[env(safe-area-inset-bottom,0px)] text-warm-white lg:hidden",
+              children: [
+                (0, t.jsxs)("div", {
+                  className:
+                    "pointer-events-none flex h-[351px] items-end gap-[8.77px] overflow-hidden pl-4 md:gap-[16.77px] md:pl-6",
+                  children: [
+                    (0, t.jsx)("div", {
+                      className: "mb-4 shrink-0",
+                      children: A,
+                    }),
+                    (0, t.jsx)(p, {
+                      progress: u,
+                      className: "-mt-px h-full",
+                      children: P,
+                    }),
+                  ],
+                }),
+                (0, t.jsx)("span", {
+                  className: (0, r.cn)("block h-px w-full", x),
+                }),
+                (0, t.jsx)("div", {
+                  className: "container",
+                  children: (0, t.jsxs)("div", {
+                    className: "site-grid pt-8 pb-[45px]",
+                    children: [
+                      (0, t.jsx)("div", {
+                        className: "col-span-3",
+                        children: M,
+                      }),
+                      (0, t.jsx)("div", {
+                        className: "col-span-4 col-start-5",
+                        children: N,
+                      }),
+                    ],
+                  }),
+                }),
+                (0, t.jsx)("span", {
+                  className: (0, r.cn)("block h-px w-full", x),
+                }),
+                (0, t.jsx)("div", {
+                  className: "container",
+                  children: (0, t.jsx)("div", {
+                    className: "pt-8 pb-8",
+                    children: O,
+                  }),
+                }),
+                (0, t.jsx)("span", {
+                  className: (0, r.cn)("block h-px w-full", x),
+                }),
+                (0, t.jsx)("div", {
+                  className: "container",
+                  children: (0, t.jsx)(L, { className: "pt-5 pb-6" }),
+                }),
+              ],
+            }),
+            D = (0, t.jsxs)("div", {
+              className:
+                "relative hidden h-[693px] overflow-hidden bg-warm-black text-warm-white lg:block xl:h-[691px]",
+              children: [
+                (0, t.jsxs)("div", {
+                  className: "relative mx-auto h-full max-w-[1920px]",
+                  children: [
+                    (0, t.jsxs)("div", {
+                      className:
+                        "pointer-events-none absolute inset-y-0 left-[24.05px] z-10 flex items-end gap-[8.64px] xl:gap-[8.71px] 2xl:left-8 2xl:gap-[38.64px]",
+                      children: [
+                        (0, t.jsx)("div", {
+                          className: "mb-20 shrink-0",
+                          children: A,
+                        }),
+                        (0, t.jsxs)(p, {
+                          progress: u,
+                          className: "-mt-0.5 h-[640px] self-start",
+                          children: [
+                            (0, t.jsx)("div", {
+                              className: "xl:hidden",
+                              children: P,
+                            }),
+                            (0, t.jsx)("div", {
+                              className: "hidden xl:block",
+                              children: R,
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, t.jsx)("div", {
+                      className:
+                        "absolute inset-x-0 top-[38px] container xl:top-[36px]",
+                      children: (0, t.jsxs)("div", {
+                        className: "site-grid",
+                        children: [
+                          (0, t.jsx)("div", {
+                            className:
+                              "col-span-3 col-start-7 xl:col-span-5 xl:col-start-[13]",
+                            children: N,
+                          }),
+                          (0, t.jsx)("div", {
+                            className:
+                              "col-span-3 col-start-10 xl:col-span-6 xl:col-start-[19]",
+                            children: M,
+                          }),
+                        ],
+                      }),
+                    }),
+                    (0, t.jsx)("span", {
+                      className: (0, r.cn)(
+                        "absolute top-[454px] right-0 left-[162px] block h-px xl:hidden",
+                        x,
+                      ),
+                    }),
+                    (0, t.jsx)("div", {
+                      className:
+                        "absolute inset-x-0 top-[452px] container hidden xl:block",
+                      children: (0, t.jsx)("div", {
+                        className: "site-grid",
+                        children: (0, t.jsx)("span", {
+                          className: (0, r.cn)(
+                            "col-[13/-1] block h-px xl:-mr-8 2xl:mr-[calc((1920px-100vw)/2-48px)]",
+                            x,
+                          ),
+                        }),
+                      }),
+                    }),
+                    (0, t.jsx)("div", {
+                      className:
+                        "absolute inset-x-0 top-[480px] container xl:top-[476px]",
+                      children: (0, t.jsx)("div", {
+                        className: "site-grid",
+                        children: (0, t.jsx)("div", {
+                          className:
+                            "col-span-6 col-start-7 xl:col-span-12 xl:col-start-[13]",
+                          children: O,
+                        }),
+                      }),
+                    }),
+                    (0, t.jsx)("div", {
+                      className: "absolute inset-x-0 bottom-[19.8px] px-8",
+                      children: (0, t.jsx)(L, {}),
+                    }),
+                  ],
+                }),
+                (0, t.jsx)("span", {
+                  className: (0, r.cn)(
+                    "absolute inset-x-0 top-[640px] block h-px xl:top-[638px]",
+                    x,
+                  ),
+                }),
+              ],
+            }),
+            H = (0, t.jsxs)(t.Fragment, { children: [z, D] });
+          return g?.mediaType
+            ? (0, t.jsxs)("footer", {
+                id: "footer",
+                className: "relative",
+                "data-header-scheme": "light",
+                children: [
+                  (0, t.jsxs)("div", {
+                    className: "relative",
+                    children: [
+                      (0, t.jsx)(k, { media: g, mediaMobile: v }),
+                      (0, t.jsx)(E, { heading: w }),
+                    ],
+                  }),
+                  H,
+                ],
+              })
+            : (0, t.jsxs)("footer", {
+                id: "footer",
+                "data-header-scheme": "light",
+                children: [
+                  w &&

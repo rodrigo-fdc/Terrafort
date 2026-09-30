@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "checks": [
+    "deep-link and dynamic header offset",
+    "same-page anchor unlock before scroll and focus target",
+    "before first anchor route fallback and no passive history pollution",
+    "document end chooses last existing anchor",
+    "Back and Forward hashes",
+    "cross-route owner selection (isolated router adapter)",
+    "modifier preserves current document and menu",
+    "false prefix, root exact, most-specific route, anchor precedence, owner, invalid hash",
+    "missing target and malformed hash preserve route fallback without errors",
+    "two actual hook unmount/remount cycles restore overflow and inert"
+  ],
+  "errors": [],
+  "limitation": "Isolated Next router boundary adapter; real App Router SPA and history tested by navigation-verify.mjs."
+}

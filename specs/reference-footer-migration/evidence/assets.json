@@ -1,0 +1,67 @@
+[
+  {
+    "source": "https://www.datocms-assets.com/219766/1783330821-241001-one-smarts-place-01.webp?auto=format&w=196",
+    "local": "/template/site/footer/comparison-1.webp",
+    "sha256": "469c56882611b4df6d0897dab863f7d564d92dbbf6c9e28dbb4b8b3e70b61f9b"
+  },
+  {
+    "source": "https://www.datocms-assets.com/219766/1783325599-251025-synthesia-15.webp?auto=format&w=196",
+    "local": "/template/site/footer/comparison-2.webp",
+    "sha256": "78a47e8e5e056dde69dee7cdfdd8ecda25f34c3ff801dcea233d1351866b7eb4"
+  },
+  {
+    "source": "https://www.datocms-assets.com/219766/1783331818-241015-butternut-box-57.webp?auto=format&w=196",
+    "local": "/template/site/footer/comparison-3.webp",
+    "sha256": "1281371cd59c3ea1f4e8ae1cd41ed2156afaf8ee245e057a92a29eb1e982fed9"
+  },
+  {
+    "source": "https://www.datocms-assets.com/219766/1788538220-260709-st-johns-st-33.webp?auto=format&w=196",
+    "local": "/template/site/footer/comparison-4.webp",
+    "sha256": "bdf7f19f377d64d2db7fa94cf564c5f663b5218fa19d83270b62193c0be84875"
+  },
+  {
+    "source": "https://www.datocms-assets.com/219766/1783090044-251101-arclight-12.webp?auto=format&w=196",
+    "local": "/template/site/footer/comparison-5.webp",
+    "sha256": "aa09a7c50a7e737890d2e27719ece9057cac38b9061516ecaf4fdcc9cee76869"
+  },
+  {
+    "source": "https://www.datocms-assets.com/219766/1788540861-260709-st-johns-st-14.webp?auto=format&w=196",
+    "local": "/template/site/footer/comparison-6.webp",
+    "sha256": "3716bb76138a9e6a235f4f30b5eebc262c3f059b4e440274818a804815138e06"
+  },
+  {
+    "source": "https://www.datocms-assets.com/219766/1787764810-260425-john-laing-53.webp?auto=format&w=196",
+    "local": "/template/site/footer/comparison-7.webp",
+    "sha256": "de06bc47b3a2756e7ebd9e9ecbd3a05e25f3330a5cbd7e0532129b112d07989f"
+  },
+  {
+    "source": "https://www.datocms-assets.com/219766/1783090216-251208-airwallex-72.webp?auto=format&w=196",
+    "local": "/template/site/footer/comparison-8.webp",
+    "sha256": "ec068836e86c02dc7b7ffab87c2e12293e007f5448b16407f546d72403a3d80c"
+  },
+  {
+    "source": "https://www.datocms-assets.com/219766/1788538778-241120-one-derry-st-01.webp?auto=format&w=196",
+    "local": "/template/site/footer/comparison-9.webp",
+    "sha256": "ec5264146841a64df6009685a11fe3c6ac02f767906fca5233a4c7e851278ef0"
+  },
+  {
+    "source": "https://www.datocms-assets.com/219766/1783325809-250819-russell-reynolds-1.webp?auto=format&w=196",
+    "local": "/template/site/footer/comparison-10.webp",
+    "sha256": "ba6965cba879fa93c3eeadba697438acd812ac387b9061b647f6d3c1b2ab741e"
+  },
+  {
+    "source": "https://www.datocms-assets.com/219766/1783331382-240213-asticus-01.webp?auto=format&w=196",
+    "local": "/template/site/footer/comparison-11.webp",
+    "sha256": "b4e0f06f4a4286aee668d5b07c2a3923cda8c62cae18a906ec120d864d2c7342"
+  },
+  {
+    "source": "https://www.datocms-assets.com/219766/1784640255-thirdway-logo-lockup-primary-white.svg",
+    "local": "/template/site/footer/logo.svg",
+    "sha256": "d5898d2ec4a550e807dbce10bf2cdc733d7bbcc3f1d0c338f5ec245f0100d11c"
+  },
+  {
+    "source": "https://www.datocms-assets.com/219766/1782469871-5b26fa7c46d0e7add28373c44d9f238e36801df5.jpg?auto=format&w=2000",
+    "local": "/template/site/footer/contact.jpg",
+    "sha256": "c005b05fa4036eef325bac6d3b398f1855337a2568d8409103daec3018e0bd06"
+  }
+]

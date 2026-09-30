@@ -1,0 +1,14 @@
+Source: https://www.thirdway.com/_next/static/chunks/3nqrf99jfxf00.css
+Formatted lines 7389-7400
+}
+.block-padding {
+  padding-top: var(--block-pt-mob, 64px);
+  padding-bottom: var(--block-pb-mob, 64px);
+}
+@media (min-width: 1440px) {
+  .block-padding {
+    padding-top: var(--block-pt-des, 98px);
+    padding-bottom: var(--block-pb-des, 98px);
+  }
+}
+.split-line {

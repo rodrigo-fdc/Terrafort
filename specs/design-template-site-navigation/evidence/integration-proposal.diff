@@ -1,0 +1,9 @@
+--- a/src/shared/template/site/site-shell.component.tsx
++++ b/src/shared/template/site/site-shell.component.tsx
+@@ -1,5 +1,5 @@
+ import type { ReactNode } from "react";
+-import { Header } from "./header.component";
++import { Header } from "./navigation/header.component";
+ import { Footer } from "./footer.component";
+ import { SectionWrapper } from "./section-wrapper.component";
+ import styles from "./site-shell.module.css";

@@ -1,0 +1,364 @@
+Source: https://www.thirdway.com/_next/static/chunks/3_kjnk_cfpbuq.js
+Formatted lines 6343-6704
+    let nw = [0.35, 0, 0.35, 1];
+    function nb() {
+      return (0, i.jsx)(o.default, {
+        href: "/",
+        "aria-label": "Thirdway — home",
+        className:
+          "relative inline-flex shrink-0 items-start py-[2px] text-warm-black",
+        children: (0, i.jsx)(y.default, {
+          className: "h-[21.333px] w-auto overflow-visible",
+        }),
+      });
+    }
+    function ny({ value: e }) {
+      return (0, i.jsx)(t6.default, { children: e });
+    }
+    function nj() {
+      let [e, t] = (0, r.useState)(null);
+      (0, r.useEffect)(() => {
+        let e = new Intl.DateTimeFormat("en-GB", {
+            hour: "2-digit",
+            minute: "2-digit",
+            hour12: !1,
+            timeZone: "Europe/London",
+          }),
+          n = () => t(e.format(new Date()));
+        n();
+        let i = setInterval(n, 3e4);
+        return () => clearInterval(i);
+      }, []);
+      let [n, o] = (e ?? "00:00").split(":");
+      return (0, i.jsxs)("div", {
+        className: "flex items-center gap-1 cap-trim",
+        suppressHydrationWarning: !0,
+        children: [
+          (0, i.jsx)(ny, { value: n }),
+          (0, i.jsx)("span", { className: "body-small", children: ":" }),
+          (0, i.jsx)(ny, { value: o }),
+          (0, i.jsx)("span", {
+            className: "ml-1.5 body-small",
+            children: "GMT",
+          }),
+        ],
+      });
+    }
+    function nk({ label: e, onClick: t, children: n }) {
+      return (0, i.jsx)("button", {
+        type: "button",
+        onClick: t,
+        "aria-label": e,
+        className:
+          "flex size-8 shrink-0 items-center justify-center rounded-[2px] bg-cream/40 text-warm-black transition-colors hover:bg-cream/70",
+        children: n,
+      });
+    }
+    function nE({ children: e }) {
+      return (0, i.jsxs)(i.Fragment, {
+        children: [
+          (0, i.jsx)(a.default, {
+            "aria-hidden": !0,
+            className:
+              "absolute top-1/2 left-0 h-[0.5em] w-auto -translate-x-1/3 -translate-y-1/2 opacity-0 transition-all duration-[400ms] ease-button group-hover/item:translate-x-0 group-hover/item:opacity-100 group-data-[clicked]/item:translate-x-0 group-data-[clicked]/item:opacity-100",
+          }),
+          (0, i.jsx)("span", {
+            className:
+              "block w-fit transition-transform duration-[400ms] ease-button cap-trim group-hover/item:translate-x-[1em] group-data-[clicked]/item:translate-x-[1em]",
+            children: e,
+          }),
+        ],
+      });
+    }
+    function nN({ variant: e, open: t, onToggle: n, onContact: o }) {
+      let a = "desktop" === e,
+        l = (0, s.usePathname)(),
+        d = (0, r.useRef)(null),
+        u = (0, _.useSiteSettings)().option?.menuLinks,
+        h = nf().length > 0;
+      (0, r.useEffect)(() => {
+        t &&
+          d.current
+            ?.querySelectorAll("[data-clicked]")
+            .forEach((e) => e.removeAttribute("data-clicked"));
+      }, [t]);
+      let p = a
+        ? { width: t ? 680 : 172, height: t ? "auto" : 44 }
+        : { width: "100%", height: t ? "auto" : 44 };
+      return (0, i.jsxs)(N.motion.div, {
+        "data-menu-panel": !0,
+        initial: !1,
+        animate: p,
+        transition: { duration: 0.5, ease: nw },
+        className: (0, j.cn)(
+          "pointer-events-auto overflow-hidden rounded-[4px] bg-white text-warm-black",
+          !a && "mx-auto max-w-[361px]",
+        ),
+        children: [
+          (0, i.jsxs)("div", {
+            className: (0, j.cn)(
+              "flex h-11 shrink-0 items-center justify-between pr-1.5 pl-3",
+              t && "border-b border-warm-black/15",
+            ),
+            children: [
+              (0, i.jsx)(nb, {}),
+              (0, i.jsxs)("div", {
+                className: "flex items-center gap-3",
+                children: [
+                  !a &&
+                    (0, i.jsx)("button", {
+                      type: "button",
+                      onClick: o,
+                      className: "inline-flex min-h-[24px] items-center",
+                      children: (0, i.jsx)("span", {
+                        className:
+                          "border-b border-current pb-0.5 body-small cap-trim",
+                        children: "Let’s talk",
+                      }),
+                    }),
+                  (0, i.jsx)(nk, {
+                    label: t ? "Close menu" : "Open menu",
+                    onClick: n,
+                    children: t
+                      ? (0, i.jsx)(b.default, { className: "size-8" })
+                      : (0, i.jsx)(c, { className: "size-8" }),
+                  }),
+                ],
+              }),
+            ],
+          }),
+          (0, i.jsxs)(N.motion.div, {
+            initial: !1,
+            animate: { opacity: +!!t },
+            transition: { duration: 0.3, delay: 0.12 * !!t },
+            style: { width: a ? 680 : "100%" },
+            "aria-hidden": !t,
+            inert: !t,
+            "data-lenis-prevent": !0,
+            className:
+              "thin-scrollbar max-h-[calc(100dvh-76px)] overflow-x-hidden overflow-y-auto lg:max-h-[calc(100dvh-84px)]",
+            children: [
+              (0, i.jsx)("nav", {
+                ref: d,
+                className:
+                  "flex flex-col items-start px-[18px] pt-6 pb-6 lg:px-4 lg:pt-[23px] lg:pb-[27px]",
+                children: u?.map((e) => {
+                  let t = (0, t7.getRemappedUrl)(e),
+                    r = t === l;
+                  return (0, i.jsx)(
+                    t7.default,
+                    {
+                      ...e,
+                      title: void 0,
+                      className: (0, j.cn)(
+                        "relative block w-full py-2 font-sans text-[28px] leading-[1.1] font-medium tracking-[-0.06em] text-warm-black lg:py-[9px] lg:text-[32px]",
+                        t === l ? "text-warm-black/60" : "group/item",
+                      ),
+                      "aria-current": r ? "page" : void 0,
+                      onClick: (e) => {
+                        (e.currentTarget.setAttribute("data-clicked", ""),
+                          r && n());
+                      },
+                      children: (0, i.jsx)(nE, { children: e.title ?? "" }),
+                    },
+                    e.id,
+                  );
+                }),
+              }),
+              h &&
+                (0, i.jsxs)("div", {
+                  className: "border-t border-warm-black/15 pb-3",
+                  children: [
+                    (0, i.jsxs)("div", {
+                      className:
+                        "mt-6 flex items-center gap-1.5 px-[18px] lg:px-4",
+                      children: [
+                        (0, i.jsx)("span", {
+                          className: "size-2 rounded-full bg-warm-black",
+                        }),
+                        (0, i.jsx)("span", {
+                          className: "body-small cap-trim",
+                          children: "Lately at Thirdway",
+                        }),
+                      ],
+                    }),
+                    (0, i.jsx)(t1, {
+                      duration: 60,
+                      gap: "10px",
+                      className: "mt-6",
+                      children: (0, i.jsx)(ng, {}),
+                    }),
+                  ],
+                }),
+            ],
+          }),
+        ],
+      });
+    }
+    e.s(
+      [
+        "default",
+        0,
+        function () {
+          let [e, t] = (0, r.useState)(!1),
+            [n, o] = (0, r.useState)("dark"),
+            [a, l] = (0, E.useAtom)(S.contactModalOpenState),
+            c = (0, s.usePathname)(),
+            d = (0, r.useRef)(null),
+            u = () => l(!0);
+          ((0, T.useScrollLock)(e),
+            (0, r.useEffect)(() => t(!1), [c]),
+            (0, r.useEffect)(() => {
+              let e = 0,
+                t = () => {
+                  e = 0;
+                  let t = document.getElementById("transition-frame"),
+                    n = t ? getComputedStyle(t).transform : "none",
+                    i = n && "none" !== n ? new DOMMatrixReadOnly(n).f : 0,
+                    r = null;
+                  (document
+                    .querySelectorAll("#smooth-content [data-header-scheme]")
+                    .forEach((e) => {
+                      if ("hidden" === getComputedStyle(e).visibility) return;
+                      let t = e.getBoundingClientRect();
+                      t.top - i <= 44 &&
+                        t.bottom - i > 44 &&
+                        (r = e.dataset.headerScheme ?? null);
+                    }),
+                    o("light" === r ? "light" : "dark"));
+                },
+                n = () => {
+                  e || (e = requestAnimationFrame(t));
+                };
+              return (
+                t(),
+                window.addEventListener("scroll", n, { passive: !0 }),
+                window.addEventListener("resize", n),
+                window.addEventListener(t0.PAGE_ENTERED_EVENT, n),
+                window.addEventListener(t0.PAGE_TRANSITION_SETTLED_EVENT, n),
+                () => {
+                  (window.removeEventListener("scroll", n),
+                    window.removeEventListener("resize", n),
+                    window.removeEventListener(t0.PAGE_ENTERED_EVENT, n),
+                    window.removeEventListener(
+                      t0.PAGE_TRANSITION_SETTLED_EVENT,
+                      n,
+                    ),
+                    e && cancelAnimationFrame(e));
+                }
+              );
+            }, [c]),
+            (0, r.useEffect)(() => {
+              let e = d.current;
+              if (!e || e.dataset.introControlled) return;
+              if (window.matchMedia("(prefers-reduced-motion: reduce)").matches)
+                return void k.default.set(e, { clearProps: "transform" });
+              let t = k.default.fromTo(
+                e,
+                { y: 0, yPercent: -120 },
+                {
+                  yPercent: 0,
+                  duration: 0.65,
+                  ease: "power3.out",
+                  delay: 0.15,
+                  clearProps: "transform",
+                },
+              );
+              return () => {
+                t.kill();
+              };
+            }, []),
+            (0, r.useEffect)(() => {
+              if (!e || a) return;
+              let n = (e) => "Escape" === e.key && t(!1),
+                i = (e) => {
+                  let n = e.target;
+                  n?.closest?.("[data-menu-panel]") ||
+                    n?.closest?.("[data-menu-keep-open]") ||
+                    t(!1);
+                };
+              return (
+                document.addEventListener("keydown", n),
+                document.addEventListener("mousedown", i),
+                () => {
+                  (document.removeEventListener("keydown", n),
+                    document.removeEventListener("mousedown", i));
+                }
+              );
+            }, [e, a]));
+          let h = e ? "light" : n;
+          return (0, i.jsxs)(i.Fragment, {
+            children: [
+              (0, i.jsx)(nv, {}),
+              (0, i.jsxs)("header", {
+                ref: d,
+                "data-site-header": !0,
+                style: { transform: "translateY(-120%)" },
+                className: "pointer-events-none fixed inset-x-0 top-0 z-40",
+                children: [
+                  (0, i.jsx)(N.motion.div, {
+                    initial: !1,
+                    animate: {
+                      opacity: +!!e,
+                      visibility: e ? "visible" : "hidden",
+                    },
+                    transition: { duration: 0.35, ease: "linear" },
+                    "aria-hidden": !0,
+                    className: (0, j.cn)(
+                      "fixed inset-0 z-0 bg-warm-black/60 backdrop-blur-[8px]",
+                      e ? "pointer-events-auto" : "pointer-events-none",
+                    ),
+                  }),
+                  (0, i.jsx)("div", {
+                    className:
+                      "relative z-10 container hidden pt-[calc(1.25rem+env(safe-area-inset-top,0px))] pb-5 lg:block",
+                    children: (0, i.jsxs)("div", {
+                      className: (0, j.cn)(
+                        "relative flex h-11 items-center justify-between transition-colors duration-500",
+                        "dark" === h ? "text-warm-black" : "text-warm-white",
+                      ),
+                      children: [
+                        (0, i.jsx)("div", {
+                          className: "pointer-events-auto",
+                          children: (0, i.jsx)(nj, {}),
+                        }),
+                        (0, i.jsx)("span", {
+                          "data-menu-keep-open": !0,
+                          className: "contents",
+                          children: (0, i.jsx)(nx.default, {
+                            variant: h,
+                            onClick: u,
+                            className: "pointer-events-auto",
+                            children: "Let’s talk",
+                          }),
+                        }),
+                        (0, i.jsx)("div", {
+                          className:
+                            "absolute top-0 left-1/2 z-10 -translate-x-1/2",
+                          children: (0, i.jsx)(nN, {
+                            variant: "desktop",
+                            open: e,
+                            onToggle: () => t((e) => !e),
+                            onContact: u,
+                          }),
+                        }),
+                      ],
+                    }),
+                  }),
+                  (0, i.jsx)("div", {
+                    className:
+                      "relative z-10 container pt-[calc(1rem+env(safe-area-inset-top,0px))] pb-4 lg:hidden",
+                    children: (0, i.jsx)(nN, {
+                      variant: "mobile",
+                      open: e,
+                      onToggle: () => t((e) => !e),
+                      onContact: u,
+                    }),
+                  }),
+                ],
+              }),
+            ],
+          });
+        },
+      ],
+      3020,

@@ -1,0 +1,68 @@
+{
+  "url": "https://www.thirdway.com/",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "dpr": 1
+  },
+  "items": [
+    {
+      "label": "Approach",
+      "href": "/approach",
+      "classes": "relative block w-full py-2 font-sans text-[28px] leading-[1.1] font-medium tracking-[-0.06em] text-warm-black lg:py-[9px] lg:text-[32px] group/item"
+    },
+    {
+      "label": "Services",
+      "href": "/services",
+      "classes": "relative block w-full py-2 font-sans text-[28px] leading-[1.1] font-medium tracking-[-0.06em] text-warm-black lg:py-[9px] lg:text-[32px] group/item"
+    },
+    {
+      "label": "People",
+      "href": "/people",
+      "classes": "relative block w-full py-2 font-sans text-[28px] leading-[1.1] font-medium tracking-[-0.06em] text-warm-black lg:py-[9px] lg:text-[32px] group/item"
+    },
+    {
+      "label": "Projects",
+      "href": "/projects",
+      "classes": "relative block w-full py-2 font-sans text-[28px] leading-[1.1] font-medium tracking-[-0.06em] text-warm-black lg:py-[9px] lg:text-[32px] group/item"
+    },
+    {
+      "label": "Vision & Values",
+      "href": "/vision-and-values",
+      "classes": "relative block w-full py-2 font-sans text-[28px] leading-[1.1] font-medium tracking-[-0.06em] text-warm-black lg:py-[9px] lg:text-[32px] group/item"
+    },
+    {
+      "label": "Our Home",
+      "href": "/our-home",
+      "classes": "relative block w-full py-2 font-sans text-[28px] leading-[1.1] font-medium tracking-[-0.06em] text-warm-black lg:py-[9px] lg:text-[32px] group/item"
+    },
+    {
+      "label": "ESG",
+      "href": "/esg",
+      "classes": "relative block w-full py-2 font-sans text-[28px] leading-[1.1] font-medium tracking-[-0.06em] text-warm-black lg:py-[9px] lg:text-[32px] group/item"
+    },
+    {
+      "label": "Journal",
+      "href": "/journal",
+      "classes": "relative block w-full py-2 font-sans text-[28px] leading-[1.1] font-medium tracking-[-0.06em] text-warm-black lg:py-[9px] lg:text-[32px] group/item"
+    }
+  ],
+  "buttons": [
+    {
+      "label": "Let’s talk",
+      "aria": null
+    },
+    {
+      "label": "",
+      "aria": "Close menu"
+    },
+    {
+      "label": "26Live projectsStart yours",
+      "aria": "Start your project — open the contact form"
+    },
+    {
+      "label": "26Live projectsStart yours",
+      "aria": "Start your project — open the contact form"
+    }
+  ]
+}
